@@ -1,0 +1,51 @@
+{
+  "id": "AN_GLITCH_FLICKER",
+  "name": "Glitch Flicker Trigger",
+  "durationSeconds": 0.2344,
+  "fps": 30,
+  "loop": false,
+  "keyframes": [
+    {
+      "frame": 0,
+      "time": "0.0s",
+      "opacity": 1,
+      "skewX": "0deg"
+    },
+    {
+      "frame": 1,
+      "time": "0.033s",
+      "opacity": 0.1,
+      "skewX": "12deg"
+    },
+    {
+      "frame": 2,
+      "time": "0.067s",
+      "opacity": 0.9,
+      "skewX": "-8deg"
+    },
+    {
+      "frame": 3,
+      "time": "0.100s",
+      "opacity": 0.3,
+      "skewX": "0deg"
+    },
+    {
+      "frame": 4,
+      "time": "0.133s",
+      "opacity": 1,
+      "skewX": "15deg"
+    },
+    {
+      "frame": 5,
+      "time": "0.167s",
+      "opacity": 0.2,
+      "skewX": "-12deg"
+    },
+    {
+      "frame": 7,
+      "time": "0.234s",
+      "opacity": 1,
+      "skewX": "0deg"
+    }
+  ]
+}

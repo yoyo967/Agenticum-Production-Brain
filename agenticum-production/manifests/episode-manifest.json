@@ -1,0 +1,42 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2026-09-24T00:27:00Z",
+  "episodes": [
+    {
+      "id": "EP_001_BOOT_SEQUENCE_A17",
+      "title": "BOOT SEQUENCE: A-17",
+      "status": "planned",
+      "durationSeconds": 90.0,
+      "tempoBpm": 128,
+      "description": "Episode 001 tracks the unexpected awakening of diagnostic subroutine Astra (A-17) inside a drifting orbital relay and her logical conflict with external Operator command.",
+      "scriptTimeline": {
+        "visualTracks": [
+          { "time": "0.0s", "layer": "background", "assetId": "WD_ORB_ORBITAL_RELAY", "bgId": "deck" },
+          { "time": "0.0s", "layer": "character_01", "assetId": "CH_AG_ASTRA_A17", "poseId": "boot", "position": { "x": 0.45, "y": 0.48 }, "scale": 1.0 },
+          { "time": "5.0s", "layer": "character_01", "poseId": "idle" },
+          { "time": "25.0s", "layer": "character_01", "poseId": "scan" },
+          { "time": "45.0s", "layer": "character_01", "poseId": "react" },
+          { "time": "78.0s", "layer": "character_01", "poseId": "shutdown" }
+        ],
+        "animationTracks": [
+          { "time": "0.0s", "type": "camera", "moveId": "CAM_STATIC" },
+          { "time": "5.0s", "type": "character_01", "cycleId": "AN_IDLE_BREATHING" },
+          { "time": "45.0s", "type": "camera", "moveId": "CAM_SHOCK_ZOOM", "target": "character_01" }
+        ],
+        "audioTracks": [
+          { "time": "0.0s", "type": "ambience", "assetId": "AMB_SECTOR_RUMBLE", "volume": 0.4 },
+          { "time": "1.5s", "type": "music", "assetId": "AM_EP001_128BPM_CMINOR", "volume": 0.75 },
+          { "time": "5.5s", "type": "voiceover", "assetId": "VO_EP001_ASTRA_A17_01" },
+          { "time": "26.0s", "type": "voiceover", "assetId": "VO_EP001_OPERATOR_01" },
+          { "time": "46.0s", "type": "voiceover", "assetId": "VO_EP001_NARRATOR_01" },
+          { "time": "45.0s", "type": "sfx", "assetId": "SFX_ALERT_SIREN" }
+        ],
+        "subtitles": [
+          { "start": "5.5s", "end": "10.75s", "text": "boot sequence initiated. low-level hardware diagnostics complete." },
+          { "start": "26.0s", "end": "32.8s", "text": "relay-17, this is control. shut down immediately and stay deallocated." },
+          { "start": "46.0s", "end": "53.4s", "text": "unverified external cyan signal incoming. automatic thread termination." }
+        ]
+      }
+    }
+  ]
+}

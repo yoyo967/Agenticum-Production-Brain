@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-09-23T22:17:00Z",
+  "templates": [
+    {
+      "id": "TP_MONOLITH_FOCAL",
+      "name": "Monolith Focal Frame",
+      "status": "approved",
+      "description": "Standard high-contrast frame with a single large central character hovering at center screen, with telemetry metrics crawling along the bottom safe margins.",
+      "layout": {
+        "aspectRatio": "9:16",
+        "elements": [
+          { "type": "background", "zIndex": 1 },
+          { "type": "character", "zIndex": 2, "defaultPosition": { "x": 0.5, "y": 0.45 } },
+          { "type": "subtitles", "zIndex": 3, "position": { "x": 0.5, "y": 0.7 } },
+          { "type": "telemetry", "zIndex": 4, "position": { "x": 0.5, "y": 0.08 } }
+        ]
+      }
+    },
+    {
+      "id": "TP_DUAL_VS",
+      "name": "Binary Dialogue Split",
+      "status": "planned",
+      "description": "Two characters facing each other in asymmetrical left-right vertical stacks.",
+      "layout": {
+        "aspectRatio": "9:16",
+        "elements": [
+          { "type": "background", "zIndex": 1 },
+          { "type": "character_left", "zIndex": 2, "defaultPosition": { "x": 0.35, "y": 0.5 } },
+          { "type": "character_right", "zIndex": 2, "defaultPosition": { "x": 0.65, "y": 0.5 } },
+          { "type": "subtitles", "zIndex": 3, "position": { "x": 0.5, "y": 0.68 } }
+        ]
+      }
+    }
+  ]
+}

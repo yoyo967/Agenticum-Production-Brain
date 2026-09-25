@@ -1,0 +1,44 @@
+{
+  "id": "AN_SCANNING_SWEEP",
+  "name": "Scanning Sweep Cycle",
+  "durationSeconds": 1.875,
+  "fps": 30,
+  "loop": true,
+  "keyframes": [
+    {
+      "frame": 0,
+      "time": "0.0s",
+      "rotation": 3,
+      "laserOpacity": 0.8,
+      "laserWidthScale": 1
+    },
+    {
+      "frame": 14,
+      "time": "0.469s",
+      "rotation": 0,
+      "laserOpacity": 0.5,
+      "laserWidthScale": 0.8
+    },
+    {
+      "frame": 28,
+      "time": "0.938s",
+      "rotation": -3,
+      "laserOpacity": 0.8,
+      "laserWidthScale": 1
+    },
+    {
+      "frame": 42,
+      "time": "1.406s",
+      "rotation": 0,
+      "laserOpacity": 0.5,
+      "laserWidthScale": 0.8
+    },
+    {
+      "frame": 56,
+      "time": "1.875s",
+      "rotation": 3,
+      "laserOpacity": 0.8,
+      "laserWidthScale": 1
+    }
+  ]
+}

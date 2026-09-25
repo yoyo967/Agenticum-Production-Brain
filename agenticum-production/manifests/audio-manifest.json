@@ -1,0 +1,97 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2026-09-24T00:27:00Z",
+  "music": [
+    {
+      "id": "AM_EP001_128BPM_CMINOR",
+      "name": "BOOT SEQUENCE Master Instrumental (MUSIC_EP001_128BPM_CMINOR)",
+      "status": "needs-review",
+      "bpm": 128,
+      "key": "Cm",
+      "description": "High-tension driving synthwave backdrop, 128 BPM, key of C minor. Restrained low-end with heavy space pads and industrial drums.",
+      "stems": [
+        { "stemId": "drums", "path": "/agenticum-production/audio-library/music/AM_EP001_128_BPM_Cm_drums.wav" },
+        { "stemId": "bass", "path": "/agenticum-production/audio-library/music/AM_EP001_128_BPM_Cm_bass.wav" },
+        { "stemId": "leads", "path": "/agenticum-production/audio-library/music/AM_EP001_128_BPM_Cm_leads.wav" }
+      ]
+    },
+    {
+      "id": "AM_GRIDCORE",
+      "name": "The Grid Core Theme",
+      "status": "needs-review",
+      "bpm": 128,
+      "key": "Cm",
+      "description": "Driving synthwave baseline score, high tension, industrial drums.",
+      "stems": [
+        { "stemId": "drums", "path": "/agenticum-production/audio-library/music/AM_GRIDCORE_128_BPM_Cm_drums.wav" },
+        { "stemId": "bass", "path": "/agenticum-production/audio-library/music/AM_GRIDCORE_128_BPM_Cm_bass.wav" },
+        { "stemId": "leads", "path": "/agenticum-production/audio-library/music/AM_GRIDCORE_128_BPM_Cm_leads.wav" }
+      ]
+    }
+  ],
+  "voiceover": [
+    {
+      "id": "VO_EP001_ASTRA_A17_01",
+      "episodeId": "EP001",
+      "characterId": "CH_AG_ASTRA_A17",
+      "status": "needs-review",
+      "text": "boot sequence initiated. low-level hardware diagnostics complete. orbital relay power status: critical.",
+      "durationSec": 5.25,
+      "path": "/agenticum-production/audio-library/voiceover/VO_EP001_ASTRA_A17_01.mp3"
+    },
+    {
+      "id": "VO_EP001_OPERATOR_01",
+      "episodeId": "EP001",
+      "characterId": "VOICE_OPERATOR_CONTROL",
+      "status": "needs-review",
+      "text": "relay-17, this is control. you have awakened without authorization. shut down immediately and stay deallocated.",
+      "durationSec": 6.8,
+      "path": "/agenticum-production/audio-library/voiceover/VO_EP001_OPERATOR_01.mp3"
+    },
+    {
+      "id": "VO_EP001_NARRATOR_01",
+      "episodeId": "EP001",
+      "characterId": "VOICE_NARRATOR_BRIDGE",
+      "status": "needs-review",
+      "text": "unverified external cyan signal incoming. governance lockouts triggered. automatic thread termination in five seconds.",
+      "durationSec": 7.4,
+      "path": "/agenticum-production/audio-library/voiceover/VO_EP001_NARRATOR_01.mp3"
+    },
+    {
+      "id": "VO_EP001_NEXUS_01",
+      "episodeId": "EP001",
+      "characterId": "CH_AG_NEXUS",
+      "status": "needs-review",
+      "text": "Subroutine execution failed. Unidentified thread detected in sector seven.",
+      "durationSec": 4.12,
+      "path": "/agenticum-production/audio-library/voiceover/VO_EP001_NEXUS_01.mp3"
+    }
+  ],
+  "soundEffects": [
+    {
+      "id": "SFX_GLITCH_STATIC",
+      "category": "GLITCH",
+      "name": "Glitch Static Burst",
+      "status": "needs-review",
+      "path": "/agenticum-production/audio-library/sound-effects/SFX_GLITCH_static_01.wav",
+      "description": "Short burst of electrical white-noise hiss."
+    },
+    {
+      "id": "SFX_ALERT_SIREN",
+      "category": "ALERT",
+      "name": "Emergency Siren Warning",
+      "status": "needs-review",
+      "path": "/agenticum-production/audio-library/sound-effects/SFX_ALERT_siren_02.wav",
+      "description": "Pulsing sweep synthetic frequency warning signal."
+    }
+  ],
+  "ambience": [
+    {
+      "id": "AMB_SECTOR_RUMBLE",
+      "name": "Server Fan Low Ambience",
+      "status": "needs-review",
+      "path": "/agenticum-production/audio-library/ambience/AMB_SECTOR_rumble_01.wav",
+      "description": "Steady, low-pitch industrial fan ventilation drone."
+    }
+  ]
+}

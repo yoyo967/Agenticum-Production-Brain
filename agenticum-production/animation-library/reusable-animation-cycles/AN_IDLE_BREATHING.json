@@ -1,0 +1,44 @@
+{
+  "id": "AN_IDLE_BREATHING",
+  "name": "Breathing Idle Cycle",
+  "durationSeconds": 0.9375,
+  "fps": 30,
+  "loop": true,
+  "keyframes": [
+    {
+      "frame": 0,
+      "time": "0.0s",
+      "translateY": "0px",
+      "scaleY": 0.985,
+      "opacity": 1
+    },
+    {
+      "frame": 7,
+      "time": "0.234s",
+      "translateY": "-3px",
+      "scaleY": 1,
+      "opacity": 1
+    },
+    {
+      "frame": 14,
+      "time": "0.469s",
+      "translateY": "-6px",
+      "scaleY": 1.015,
+      "opacity": 1
+    },
+    {
+      "frame": 21,
+      "time": "0.703s",
+      "translateY": "-3px",
+      "scaleY": 1,
+      "opacity": 1
+    },
+    {
+      "frame": 28,
+      "time": "0.938s",
+      "translateY": "0px",
+      "scaleY": 0.985,
+      "opacity": 1
+    }
+  ]
+}

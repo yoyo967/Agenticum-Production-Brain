@@ -1,0 +1,261 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2026-09-24T14:16:00Z",
+  "characters": [
+    {
+      "id": "CH_AG_ASTRA_A17",
+      "name": "Astra / A-17",
+      "status": "needs-review",
+      "version": "1.0.0",
+      "description": "The primary sentient subroutine. Precision-engineered humanoid constructed of polished white ceramic plates over graphite framework with a glowing horizontal cyan optical port.",
+      "visualBrief": "High-contrast flat-vector synthetic humanoid with sleek white ceramic segments, black joints, glowing cyan horizontal eye strip. Clean white background.",
+      "poses": [
+        {
+          "poseId": "boot",
+          "status": "needs-review",
+          "path": "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_boot.png",
+          "sourceJpg": "src/assets/images/astra_boot_1790283410617.jpg",
+          "derivativeFile": "assets/characters/transparent/CH_AG_ASTRA_A17_boot.png",
+          "format": "RGBA PNG",
+          "dimensions": "1024x1024",
+          "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+          "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
+          "brief": "Curled dormant posture, single cyan diagnostic dot glowing on faceplate."
+        },
+        {
+          "poseId": "idle",
+          "status": "needs-review",
+          "path": "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_idle.png",
+          "sourceJpg": "src/assets/images/astra_idle_1790283400786.jpg",
+          "derivativeFile": "assets/characters/transparent/CH_AG_ASTRA_A17_idle.png",
+          "format": "RGBA PNG",
+          "dimensions": "1024x1024",
+          "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+          "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
+          "brief": "Floating vertically, arms relaxed, cyan optical strip pulsing at 0.5Hz."
+        },
+        {
+          "poseId": "scan",
+          "status": "needs-review",
+          "path": "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_scan.png",
+          "sourceJpg": "src/assets/images/astra_scan_1790283419803.jpg",
+          "derivativeFile": "assets/characters/transparent/CH_AG_ASTRA_A17_scan.png",
+          "format": "RGBA PNG",
+          "dimensions": "1024x1024",
+          "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+          "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
+          "brief": "Tilted forward posture, emitting three dynamic fan-out cyan laser lines downwards."
+        },
+        {
+          "poseId": "react",
+          "status": "needs-review",
+          "path": "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_react.png",
+          "sourceJpg": "src/assets/images/astra_react_1790283431396.jpg",
+          "derivativeFile": "assets/characters/transparent/CH_AG_ASTRA_A17_react.png",
+          "format": "RGBA PNG",
+          "dimensions": "1024x1024",
+          "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+          "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
+          "brief": "Defensive recoil posture, side panels flaring, optical strip flickering rapidly."
+        },
+        {
+          "poseId": "shutdown",
+          "status": "needs-review",
+          "path": "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_shutdown.png",
+          "sourceJpg": "src/assets/images/astra_shutdown_1790283440789.jpg",
+          "derivativeFile": "assets/characters/transparent/CH_AG_ASTRA_A17_shutdown.png",
+          "format": "RGBA PNG",
+          "dimensions": "1024x1024",
+          "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+          "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
+          "brief": "Deallocated posture, head dropped, optical strip faded to dim orange."
+        }
+      ]
+    },
+    {
+      "id": "CH_AG_NEXUS",
+      "name": "Nexus Core",
+      "status": "needs-review",
+      "version": "1.0.0",
+      "description": "The security warden of the system. Polished obsidian disk with rotating rings and a glowing orange optic.",
+      "visualBrief": "Flat-vector floating obsidian circular core disk, concentric dual rings, glowing orange optical center. Clean background.",
+      "poses": [
+        {
+          "poseId": "idle",
+          "status": "needs-review",
+          "path": "/agenticum-production/assets/characters/transparent/CH_AG_NEXUS_idle.png",
+          "sourceJpg": "src/assets/images/relay_core_prop_1790283465868.jpg",
+          "derivativeFile": "assets/characters/transparent/CH_AG_NEXUS_idle.png",
+          "format": "RGBA PNG",
+          "dimensions": "1024x1024",
+          "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+          "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
+          "brief": "Obsidian rings rotating at opposite 10 rpm, central orange lens pulsing slowly."
+        },
+        {
+          "poseId": "warning",
+          "status": "needs-review",
+          "path": "/agenticum-production/assets/characters/transparent/CH_AG_NEXUS_warning.png",
+          "sourceJpg": "src/assets/images/governance_seal_orange_1790283475518.jpg",
+          "derivativeFile": "assets/characters/transparent/CH_AG_NEXUS_warning.png",
+          "format": "RGBA PNG",
+          "dimensions": "1024x1024",
+          "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+          "edgeQuality": "Excellent (Smooth anti-aliasing, black matte halo removed)",
+          "brief": "Outer rings locking tight into a sharp hexagonal star; orange optic flaring intensely."
+        }
+      ]
+    },
+    {
+      "id": "CH_AG_VORTEX",
+      "name": "Vortex Prime",
+      "status": "needs-review",
+      "version": "1.0.0",
+      "description": "A rogue execution agent with a sharp, blade-like core and an asymmetric crimson optic.",
+      "visualBrief": "Sharp triangular blade-like flying mechanical craft. Asymmetric crimson vertical eye on left facet. Flat vector dark metallic textures.",
+      "poses": [
+        {
+          "poseId": "idle",
+          "status": "needs-review",
+          "path": "/agenticum-production/assets/characters/transparent/CH_AG_VORTEX_idle.png",
+          "sourceJpg": "src/assets/images/emergency_signal_cyan_1790283485961.jpg",
+          "derivativeFile": "assets/characters/transparent/CH_AG_VORTEX_idle.png",
+          "format": "RGBA PNG",
+          "dimensions": "1024x1024",
+          "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+          "edgeQuality": "Excellent (Smooth anti-aliasing, black matte halo removed)",
+          "brief": "Blade hovers, subtle vertical oscillation, crimson optic flickering."
+        }
+      ]
+    }
+  ],
+  "worlds": [
+    {
+      "id": "WD_ORB_ORBITAL_RELAY",
+      "name": "Orbital Relay Station",
+      "status": "needs-review",
+      "version": "1.0.0",
+      "description": "A damaged, drifting orbital broadcasting relay structure floating in vacuum.",
+      "visualBrief": "High-contrast cinematic 9:16 vertical vector background. Drifting solar wings, exposed cables, structural plates of transmitter deck. Dark space backdrop.",
+      "backgrounds": [
+        {
+          "bgId": "deck",
+          "status": "needs-review",
+          "path": "/agenticum-production/assets/worlds/WD_ORB_ORBITAL_RELAY_deck.png",
+          "brief": "Full transmitter deck platform with exposed conduits and clear background stars."
+        }
+      ]
+    },
+    {
+      "id": "WD_SIM_01",
+      "name": "The Grid Core",
+      "status": "needs-review",
+      "version": "1.0.0",
+      "description": "An infinite cathedral of teal and blue fiber-optic wires and monolithic black server shelves.",
+      "visualBrief": "Cinematic vertical 9:16 layout of server racks and fiber-optic pathways receding into cobalt distance. Minimalist graphic design, no text.",
+      "backgrounds": [
+        {
+          "bgId": "core",
+          "status": "needs-review",
+          "path": "/agenticum-production/assets/worlds/WD_SIM_01_core.png",
+          "brief": "Full vertical grid showing major transit nodes in teal and navy colors."
+        }
+      ]
+    },
+    {
+      "id": "WD_SIM_02",
+      "name": "Sub-Router Transit",
+      "status": "planned",
+      "version": "1.0.0",
+      "description": "A volatile bypass routing conduit with diagonal piping and warning flashes.",
+      "visualBrief": "Diagonal high-speed routing pipelines with glowing red lights and white speed-lines. Clean vector 9:16 background.",
+      "backgrounds": [
+        {
+          "bgId": "transit-wide",
+          "status": "planned",
+          "path": "/agenticum-production/assets/worlds/WD_SIM_02_transit-wide.png",
+          "brief": "Motion blur pipelines spanning diagonal corridors."
+        }
+      ]
+    }
+  ],
+  "props": [
+    {
+      "id": "PR_DECRYPT_KEY",
+      "name": "Decryption Key Node",
+      "status": "planned",
+      "version": "1.0.0",
+      "description": "A small glowing teal dodecahedron wireframe floating in place.",
+      "path": "/agenticum-production/assets/props/PR_DECRYPT_KEY.png"
+    },
+    {
+      "id": "PR_RELAY_CORE",
+      "name": "Relay Core Receiver",
+      "status": "needs-review",
+      "version": "1.0.0",
+      "description": "Massive high-tension electrical conductor conductor node designed to broadcast data strings.",
+      "path": "/agenticum-production/assets/props/transparent/PR_RELAY_CORE.png",
+      "sourceJpg": "src/assets/images/relay_core_prop_1790283465868.jpg",
+      "derivativeFile": "assets/props/transparent/PR_RELAY_CORE.png",
+      "format": "RGBA PNG",
+      "dimensions": "1024x1024",
+      "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+      "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)"
+    }
+  ],
+  "icons": [
+    {
+      "id": "IC_SYS_WARN",
+      "name": "System Alert Indicator",
+      "status": "planned",
+      "version": "1.0.0",
+      "description": "A flat triangular yellow exclamation warning mark with a sharp border.",
+      "path": "/agenticum-production/assets/icons/IC_SYS_WARN.png"
+    }
+  ],
+  "effects": [
+    {
+      "id": "EF_SCAN_LINE",
+      "name": "Scanline Screen Overlay",
+      "status": "planned",
+      "version": "1.0.0",
+      "description": "Translucent cyan horizontal sweep bar.",
+      "path": "/agenticum-production/assets/effects/EF_SCAN_LINE.png"
+    },
+    {
+      "id": "EF_SIGNAL_EMERGENCY_CYAN",
+      "name": "Emergency Cyan Core Signal",
+      "status": "needs-review",
+      "version": "1.0.0",
+      "description": "Highly energetic radiating circular pulse wave in bright cyan color.",
+      "path": "/agenticum-production/assets/effects/transparent/EF_SIGNAL_EMERGENCY_CYAN.png",
+      "sourceJpg": "src/assets/images/emergency_signal_cyan_1790283485961.jpg",
+      "derivativeFile": "assets/effects/transparent/EF_SIGNAL_EMERGENCY_CYAN.png",
+      "format": "RGBA PNG",
+      "dimensions": "1024x1024",
+      "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+      "edgeQuality": "Excellent (Smooth anti-aliasing, black matte halo removed)"
+    },
+    {
+      "id": "EF_GOVERNANCE_SEAL_ORANGE",
+      "name": "Governance Restriction Seal",
+      "status": "needs-review",
+      "version": "1.0.0",
+      "description": "A flat, mathematically precise orange hexagonal lock seal appearing on the screen.",
+      "path": "/agenticum-production/assets/effects/transparent/EF_GOVERNANCE_SEAL_ORANGE.png",
+      "sourceJpg": "src/assets/images/governance_seal_orange_1790283475518.jpg",
+      "derivativeFile": "assets/effects/transparent/EF_GOVERNANCE_SEAL_ORANGE.png",
+      "format": "RGBA PNG",
+      "dimensions": "1024x1024",
+      "alphaChannelVerification": "True (Connected background removed via flood-fill)",
+      "edgeQuality": "Excellent (Smooth anti-aliasing, black matte halo removed)"
+    }
+  ],
+  "backgrounds": [],
+  "overlays": [],
+  "typography": {
+    "displayFont": "Share Tech Mono",
+    "bodyFont": "DM Mono",
+    "monoFont": "JetBrains Mono"
+  }
+}
