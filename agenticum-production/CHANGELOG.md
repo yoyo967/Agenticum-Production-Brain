@@ -1,10 +1,27 @@
 # Changelog
 
+## [0.6.0] - 2026-09-25
+### Approved Assets (Episode 001 Visual Blockers)
+- **CH_AG_ASTRA_A17_boot** -> APPROVED at 2026-09-25T08:09:26Z (Notes: Human Review approved after alpha transparency and visual continuity checks.)
+- **CH_AG_ASTRA_A17_idle** -> APPROVED at 2026-09-25T08:09:26Z (Notes: Human Review approved after alpha transparency and visual continuity checks.)
+- **CH_AG_ASTRA_A17_scan** -> APPROVED at 2026-09-25T08:09:26Z (Notes: Human Review approved after alpha transparency and visual continuity checks.)
+- **CH_AG_ASTRA_A17_react** -> APPROVED at 2026-09-25T08:09:26Z (Notes: Human Review approved after alpha transparency and visual continuity checks.)
+- **CH_AG_ASTRA_A17_shutdown** -> APPROVED at 2026-09-25T08:09:26Z (Notes: Human Review approved after alpha transparency and visual continuity checks.)
+- **PR_RELAY_CORE** -> APPROVED at 2026-09-25T08:09:26Z (Notes: Human Review approved after alpha transparency and visual continuity checks.)
+- **EF_SIGNAL_EMERGENCY_CYAN** -> APPROVED at 2026-09-25T08:09:26Z (Notes: Human Review approved after alpha transparency and visual continuity checks.)
+- **EF_GOVERNANCE_SEAL_ORANGE** -> APPROVED at 2026-09-25T08:09:26Z (Notes: Human Review approved after alpha transparency and visual continuity checks.)
+- **WD_ORB_ORBITAL_RELAY_deck** -> APPROVED at 2026-09-25T08:09:26Z (Notes: Human Review approved after alpha transparency and visual continuity checks.)
+
+
 All notable changes to the Agenticum Production Brain project will be documented in this file. This project adheres to Semantic Versioning.
 
 ---
 
 ## [0.6.0] - 2026-09-24
+### Reviewed
+- **[Asset Review]**: Reviewed `CH_AG_ASTRA_A17_idle` -> **NEEDS-REVIEW** at 2026-09-25T08:07:11.489Z.
+  - Notes: None
+  - Background: `dark` | Version: `1.0.1` | Defects: [none]
 ### Added
 - **Alpha-Channel Correction Pass**: Successfully implemented programmatical background removal and un-multiplying color correction to produce true transparent RGBA PNG files from original JPG reference files.
 - **Separate Transparent Storage Directories**: Created dedicated folders `assets/characters/transparent/`, `assets/props/transparent/`, and `assets/effects/transparent/` to store high-fidelity production derivatives separately.

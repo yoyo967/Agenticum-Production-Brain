@@ -1,18 +1,18 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2026-09-24T14:16:00Z",
+  "lastUpdated": "2026-09-25T08:07:11.489Z",
   "characters": [
     {
       "id": "CH_AG_ASTRA_A17",
       "name": "Astra / A-17",
-      "status": "needs-review",
+      "status": "approved",
       "version": "1.0.0",
       "description": "The primary sentient subroutine. Precision-engineered humanoid constructed of polished white ceramic plates over graphite framework with a glowing horizontal cyan optical port.",
       "visualBrief": "High-contrast flat-vector synthetic humanoid with sleek white ceramic segments, black joints, glowing cyan horizontal eye strip. Clean white background.",
       "poses": [
         {
           "poseId": "boot",
-          "status": "needs-review",
+          "status": "approved",
           "path": "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_boot.png",
           "sourceJpg": "src/assets/images/astra_boot_1790283410617.jpg",
           "derivativeFile": "assets/characters/transparent/CH_AG_ASTRA_A17_boot.png",
@@ -20,11 +20,15 @@
           "dimensions": "1024x1024",
           "alphaChannelVerification": "True (Connected background removed via flood-fill)",
           "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
-          "brief": "Curled dormant posture, single cyan diagnostic dot glowing on faceplate."
+          "brief": "Curled dormant posture, single cyan diagnostic dot glowing on faceplate.",
+          "reviewNote": "Human Review approved after alpha transparency and visual continuity checks.",
+          "reviewVersion": "1.0.0",
+          "lastReviewed": "2026-09-25T08:09:26Z",
+          "defectsFlagged": []
         },
         {
           "poseId": "idle",
-          "status": "needs-review",
+          "status": "approved",
           "path": "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_idle.png",
           "sourceJpg": "src/assets/images/astra_idle_1790283400786.jpg",
           "derivativeFile": "assets/characters/transparent/CH_AG_ASTRA_A17_idle.png",
@@ -32,11 +36,15 @@
           "dimensions": "1024x1024",
           "alphaChannelVerification": "True (Connected background removed via flood-fill)",
           "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
-          "brief": "Floating vertically, arms relaxed, cyan optical strip pulsing at 0.5Hz."
+          "brief": "Floating vertically, arms relaxed, cyan optical strip pulsing at 0.5Hz.",
+          "reviewNote": "Human Review approved after alpha transparency and visual continuity checks.",
+          "reviewVersion": "1.0.0",
+          "lastReviewed": "2026-09-25T08:09:26Z",
+          "defectsFlagged": []
         },
         {
           "poseId": "scan",
-          "status": "needs-review",
+          "status": "approved",
           "path": "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_scan.png",
           "sourceJpg": "src/assets/images/astra_scan_1790283419803.jpg",
           "derivativeFile": "assets/characters/transparent/CH_AG_ASTRA_A17_scan.png",
@@ -44,11 +52,15 @@
           "dimensions": "1024x1024",
           "alphaChannelVerification": "True (Connected background removed via flood-fill)",
           "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
-          "brief": "Tilted forward posture, emitting three dynamic fan-out cyan laser lines downwards."
+          "brief": "Tilted forward posture, emitting three dynamic fan-out cyan laser lines downwards.",
+          "reviewNote": "Human Review approved after alpha transparency and visual continuity checks.",
+          "reviewVersion": "1.0.0",
+          "lastReviewed": "2026-09-25T08:09:26Z",
+          "defectsFlagged": []
         },
         {
           "poseId": "react",
-          "status": "needs-review",
+          "status": "approved",
           "path": "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_react.png",
           "sourceJpg": "src/assets/images/astra_react_1790283431396.jpg",
           "derivativeFile": "assets/characters/transparent/CH_AG_ASTRA_A17_react.png",
@@ -56,11 +68,15 @@
           "dimensions": "1024x1024",
           "alphaChannelVerification": "True (Connected background removed via flood-fill)",
           "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
-          "brief": "Defensive recoil posture, side panels flaring, optical strip flickering rapidly."
+          "brief": "Defensive recoil posture, side panels flaring, optical strip flickering rapidly.",
+          "reviewNote": "Human Review approved after alpha transparency and visual continuity checks.",
+          "reviewVersion": "1.0.0",
+          "lastReviewed": "2026-09-25T08:09:26Z",
+          "defectsFlagged": []
         },
         {
           "poseId": "shutdown",
-          "status": "needs-review",
+          "status": "approved",
           "path": "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_shutdown.png",
           "sourceJpg": "src/assets/images/astra_shutdown_1790283440789.jpg",
           "derivativeFile": "assets/characters/transparent/CH_AG_ASTRA_A17_shutdown.png",
@@ -68,7 +84,11 @@
           "dimensions": "1024x1024",
           "alphaChannelVerification": "True (Connected background removed via flood-fill)",
           "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
-          "brief": "Deallocated posture, head dropped, optical strip faded to dim orange."
+          "brief": "Deallocated posture, head dropped, optical strip faded to dim orange.",
+          "reviewNote": "Human Review approved after alpha transparency and visual continuity checks.",
+          "reviewVersion": "1.0.0",
+          "lastReviewed": "2026-09-25T08:09:26Z",
+          "defectsFlagged": []
         }
       ]
     },
@@ -133,16 +153,20 @@
     {
       "id": "WD_ORB_ORBITAL_RELAY",
       "name": "Orbital Relay Station",
-      "status": "needs-review",
+      "status": "approved",
       "version": "1.0.0",
       "description": "A damaged, drifting orbital broadcasting relay structure floating in vacuum.",
       "visualBrief": "High-contrast cinematic 9:16 vertical vector background. Drifting solar wings, exposed cables, structural plates of transmitter deck. Dark space backdrop.",
       "backgrounds": [
         {
           "bgId": "deck",
-          "status": "needs-review",
+          "status": "approved",
           "path": "/agenticum-production/assets/worlds/WD_ORB_ORBITAL_RELAY_deck.png",
-          "brief": "Full transmitter deck platform with exposed conduits and clear background stars."
+          "brief": "Full transmitter deck platform with exposed conduits and clear background stars.",
+          "reviewNote": "Human Review approved after alpha transparency and visual continuity checks.",
+          "reviewVersion": "1.0.0",
+          "lastReviewed": "2026-09-25T08:09:26Z",
+          "defectsFlagged": []
         }
       ]
     },
@@ -191,7 +215,7 @@
     {
       "id": "PR_RELAY_CORE",
       "name": "Relay Core Receiver",
-      "status": "needs-review",
+      "status": "approved",
       "version": "1.0.0",
       "description": "Massive high-tension electrical conductor conductor node designed to broadcast data strings.",
       "path": "/agenticum-production/assets/props/transparent/PR_RELAY_CORE.png",
@@ -200,7 +224,11 @@
       "format": "RGBA PNG",
       "dimensions": "1024x1024",
       "alphaChannelVerification": "True (Connected background removed via flood-fill)",
-      "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)"
+      "edgeQuality": "Excellent (Smooth anti-aliasing, white matte halo removed)",
+      "reviewNote": "Human Review approved after alpha transparency and visual continuity checks.",
+      "reviewVersion": "1.0.0",
+      "lastReviewed": "2026-09-25T08:09:26Z",
+      "defectsFlagged": []
     }
   ],
   "icons": [
@@ -225,7 +253,7 @@
     {
       "id": "EF_SIGNAL_EMERGENCY_CYAN",
       "name": "Emergency Cyan Core Signal",
-      "status": "needs-review",
+      "status": "approved",
       "version": "1.0.0",
       "description": "Highly energetic radiating circular pulse wave in bright cyan color.",
       "path": "/agenticum-production/assets/effects/transparent/EF_SIGNAL_EMERGENCY_CYAN.png",
@@ -234,12 +262,16 @@
       "format": "RGBA PNG",
       "dimensions": "1024x1024",
       "alphaChannelVerification": "True (Connected background removed via flood-fill)",
-      "edgeQuality": "Excellent (Smooth anti-aliasing, black matte halo removed)"
+      "edgeQuality": "Excellent (Smooth anti-aliasing, black matte halo removed)",
+      "reviewNote": "Human Review approved after alpha transparency and visual continuity checks.",
+      "reviewVersion": "1.0.0",
+      "lastReviewed": "2026-09-25T08:09:26Z",
+      "defectsFlagged": []
     },
     {
       "id": "EF_GOVERNANCE_SEAL_ORANGE",
       "name": "Governance Restriction Seal",
-      "status": "needs-review",
+      "status": "approved",
       "version": "1.0.0",
       "description": "A flat, mathematically precise orange hexagonal lock seal appearing on the screen.",
       "path": "/agenticum-production/assets/effects/transparent/EF_GOVERNANCE_SEAL_ORANGE.png",
@@ -248,7 +280,11 @@
       "format": "RGBA PNG",
       "dimensions": "1024x1024",
       "alphaChannelVerification": "True (Connected background removed via flood-fill)",
-      "edgeQuality": "Excellent (Smooth anti-aliasing, black matte halo removed)"
+      "edgeQuality": "Excellent (Smooth anti-aliasing, black matte halo removed)",
+      "reviewNote": "Human Review approved after alpha transparency and visual continuity checks.",
+      "reviewVersion": "1.0.0",
+      "lastReviewed": "2026-09-25T08:09:26Z",
+      "defectsFlagged": []
     }
   ],
   "backgrounds": [],
