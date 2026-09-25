@@ -837,7 +837,7 @@ export default function App() {
     });
 
     // Check world background
-    const relayDeck = assetsState.worlds.find((w: any) => w.id === "WD_ORB_ORBITAL_RELAY")?.backgrounds?.find((b: any) => b.bgId === "deck");
+    const relayDeck = (assetsState?.worlds || []).find((w: any) => w.id === "WD_ORB_ORBITAL_RELAY")?.backgrounds?.find((b: any) => b.bgId === "deck");
     if (!relayDeck || relayDeck.status !== "approved") {
       blockers.push(`WD_ORB_ORBITAL_RELAY_deck [${relayDeck ? relayDeck.status : "missing"}]`);
     }
@@ -1976,7 +1976,7 @@ export default function App() {
                 ].map(item => {
                   let assetStatus = "needs-review";
                   if (item.id === "WD_ORB_ORBITAL_RELAY_deck") {
-                    const relayDeck = assetsState.worlds.find((w: any) => w.id === "WD_ORB_ORBITAL_RELAY")?.backgrounds?.find((b: any) => b.bgId === "deck");
+                    const relayDeck = (assetsState?.worlds || []).find((w: any) => w.id === "WD_ORB_ORBITAL_RELAY")?.backgrounds?.find((b: any) => b.bgId === "deck");
                     assetStatus = relayDeck ? relayDeck.status : "missing";
                   } else {
                     const correctedList = getCorrectedAssetsList();

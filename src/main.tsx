@@ -1,3 +1,4 @@
+import './console-fallback.ts';
 import React, {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import App from './App.tsx';
@@ -43,10 +44,27 @@ class AppErrorBoundary extends React.Component<{ children: React.ReactNode }, { 
   }
 }
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <AppErrorBoundary>
-      <App />
-    </AppErrorBoundary>
-  </StrictMode>,
-);
+const container = document.getElementById('root');
+if (container) {
+  createRoot(container).render(
+    <StrictMode>
+      <AppErrorBoundary>
+        <App />
+      </AppErrorBoundary>
+    </StrictMode>,
+  );
+} else {
+  console.error("Fatal Error: Root container element '#root' not found in DOM!");
+  const fallback = document.createElement('div');
+  fallback.style.position = 'fixed';
+  fallback.style.inset = '0';
+  fallback.style.backgroundColor = '#0b0c10';
+  fallback.style.color = '#ff0055';
+  fallback.style.fontFamily = 'monospace';
+  fallback.style.padding = '2rem';
+  fallback.style.display = 'flex';
+  fallback.style.alignItems = 'center';
+  fallback.style.justifyContent = 'center';
+  fallback.innerHTML = '<h1>Fatal Error: Root container element not found!</h1>';
+  document.body.appendChild(fallback);
+}
