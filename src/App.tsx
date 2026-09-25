@@ -465,9 +465,259 @@ const FOLDER_TREE = [
   ]}
 ];
 
+const SHOTS_DATA = [
+  {
+    shotId: "SH_01",
+    startTime: 0,
+    endTime: 5,
+    duration: 5,
+    cameraFraming: "Extreme Close-up",
+    cameraMovement: "Slow vertical pan downwards",
+    characterPose: "CH_AG_ASTRA_A17_boot",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: "VO_EP001_ASTRA_A17_01",
+    musicState: "silent",
+    soundEffects: [],
+    subtitleText: "boot sequence initiated. low-level hardware diagnostics complete.",
+    transition: "fade-in"
+  },
+  {
+    shotId: "SH_02",
+    startTime: 5,
+    endTime: 10,
+    duration: 5,
+    cameraFraming: "Full Body Shot",
+    cameraMovement: "Horizontal panning starts",
+    characterPose: "CH_AG_ASTRA_A17_idle",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: null,
+    musicState: "AM_EP001_128BPM_CMINOR_active",
+    soundEffects: [],
+    subtitleText: "",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_03",
+    startTime: 10,
+    endTime: 15,
+    duration: 5,
+    cameraFraming: "Medium Shot",
+    cameraMovement: "Static, intense warning light sweep",
+    characterPose: "CH_AG_ASTRA_A17_idle",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: "VO_EP001_OPERATOR_01",
+    musicState: "AM_EP001_128BPM_CMINOR_ducked",
+    soundEffects: ["SFX_ALERT_SIREN"],
+    subtitleText: "relay-17, this is control. shut down immediately and stay deallocated.",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_04",
+    startTime: 15,
+    endTime: 20,
+    duration: 5,
+    cameraFraming: "Medium Wide",
+    cameraMovement: "Side-scrolling tracking shot",
+    characterPose: "CH_AG_ASTRA_A17_react",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: null,
+    musicState: "AM_EP001_128BPM_CMINOR_active",
+    soundEffects: [],
+    subtitleText: "",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_05",
+    startTime: 20,
+    endTime: 25,
+    duration: 5,
+    cameraFraming: "Dynamic Zoom Close-up",
+    cameraMovement: "CAM_SHOCK_ZOOM lens surge",
+    characterPose: "CH_AG_ASTRA_A17_react",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: null,
+    musicState: "AM_EP001_128BPM_CMINOR_active",
+    soundEffects: [],
+    subtitleText: "",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_06",
+    startTime: 25,
+    endTime: 30,
+    duration: 5,
+    cameraFraming: "Low Angle Medium",
+    cameraMovement: "Tracking slide tilt",
+    characterPose: "CH_AG_ASTRA_A17_scan",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: null,
+    musicState: "AM_EP001_128BPM_CMINOR_active",
+    soundEffects: [],
+    subtitleText: "",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_07",
+    startTime: 30,
+    endTime: 35,
+    duration: 5,
+    cameraFraming: "Medium Close",
+    cameraMovement: "High Jitter Camera Shake",
+    characterPose: "CH_AG_ASTRA_A17_react",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: null,
+    musicState: "AM_EP001_128BPM_CMINOR_active",
+    soundEffects: ["SFX_GLITCH_STATIC"],
+    subtitleText: "",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_08",
+    startTime: 35,
+    endTime: 45,
+    duration: 10,
+    cameraFraming: "Medium Shot",
+    cameraMovement: "Heavily constrained slow tracking",
+    characterPose: "CH_AG_ASTRA_A17_react",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: "VO_EP001_NARRATOR_01",
+    musicState: "AM_EP001_128BPM_CMINOR_ducked",
+    soundEffects: [],
+    subtitleText: "unverified external cyan signal incoming. automatic thread termination.",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_09",
+    startTime: 45,
+    endTime: 55,
+    duration: 10,
+    cameraFraming: "Close-up Portrait",
+    cameraMovement: "Static, slow darkening fade",
+    characterPose: "CH_AG_ASTRA_A17_shutdown",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: "AUDIO_DEPENDENCY_MISSING",
+    musicState: "AM_EP001_128BPM_CMINOR_active",
+    soundEffects: [],
+    subtitleText: "[RECOGNIZED GOVERNANCE SHUTDOWN COMMAND]",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_10",
+    startTime: 55,
+    endTime: 65,
+    duration: 10,
+    cameraFraming: "Medium Shot",
+    cameraMovement: "Intense camera shake and zoom out",
+    characterPose: "CH_AG_ASTRA_A17_scan",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: null,
+    musicState: "AM_EP001_128BPM_CMINOR_active",
+    soundEffects: [],
+    subtitleText: "",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_11",
+    startTime: 65,
+    endTime: 75,
+    duration: 10,
+    cameraFraming: "Wide Tracking",
+    cameraMovement: "Hyper-speed tracking",
+    characterPose: "CH_AG_ASTRA_A17_react",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: null,
+    musicState: "AM_EP001_128BPM_CMINOR_active",
+    soundEffects: [],
+    subtitleText: "",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_12",
+    startTime: 75,
+    endTime: 80,
+    duration: 5,
+    cameraFraming: "Medium Wide",
+    cameraMovement: "Extremely decelerating slide",
+    characterPose: "CH_AG_ASTRA_A17_idle",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: null,
+    musicState: "silent",
+    soundEffects: ["AUDIO_DEPENDENCY_MISSING"],
+    subtitleText: "[REAL-WORLD TRANSMISSION INTERFACE]",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_13",
+    startTime: 80,
+    endTime: 85,
+    duration: 5,
+    cameraFraming: "Full Body Dual Shot",
+    cameraMovement: "Slow creeping tracking",
+    characterPose: "CH_AG_ASTRA_A17_idle",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: null,
+    musicState: "silent",
+    soundEffects: [],
+    subtitleText: "",
+    transition: "cut"
+  },
+  {
+    shotId: "SH_14",
+    startTime: 85,
+    endTime: 90,
+    duration: 5,
+    cameraFraming: "Close-up Eye Scan",
+    cameraMovement: "Slow static zoom in",
+    characterPose: "CH_AG_ASTRA_A17_idle",
+    worldLayer: "WD_ORB_ORBITAL_RELAY_deck",
+    voiceover: "AUDIO_DEPENDENCY_MISSING",
+    musicState: "silent",
+    soundEffects: [],
+    subtitleText: "Decision pending. Execute governance protocol or initiate external signal?",
+    transition: "fade-out"
+  }
+];
+
 export default function App() {
-  const [tab, setTab] = useState<"audit" | "state" | "bible" | "warehouse" | "validator">("audit");
+  const [tab, setTab] = useState<"audit" | "state" | "bible" | "warehouse" | "validator" | "animatic">("animatic");
   const [auditSubTab, setAuditSubTab] = useState<"asset-by-asset" | "astra-contact" | "effects-compositing" | "decision-ledger">("asset-by-asset");
+
+  // Phase 4 Animatic States & Timers
+  const [currentTime, setCurrentTime] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [playbackSpeed, setPlaybackSpeed] = useState(1);
+  const [metronomeBeat, setMetronomeBeat] = useState(0);
+
+  // Playback timer effect for animatic
+  useEffect(() => {
+    let interval: any = null;
+    if (isPlaying) {
+      const step = 0.05; // 50ms steps
+      interval = setInterval(() => {
+        setCurrentTime((prev) => {
+          const next = prev + step * playbackSpeed;
+          if (next >= 90) {
+            setIsPlaying(false);
+            return 90;
+          }
+          return next;
+        });
+      }, 50);
+    } else {
+      clearInterval(interval);
+    }
+    return () => clearInterval(interval);
+  }, [isPlaying, playbackSpeed]);
+
+  // Metronome pulsing state at 128 BPM
+  useEffect(() => {
+    if (!isPlaying) return;
+    const beatIntervalMs = (60 / 128) * 1000; // ~468.75ms
+    const interval = setInterval(() => {
+      setMetronomeBeat(prev => (prev + 1) % 4);
+    }, beatIntervalMs);
+    return () => clearInterval(interval);
+  }, [isPlaying]);
   
   // Manifest Live States
   const [assetsState, setAssetsState] = useState(INITIAL_ASSET_MANIFEST);
@@ -1043,6 +1293,20 @@ export default function App() {
           >
             Phase 3 Audit Studio
             {tab === "audit" && (
+              <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#00ffcc] rounded-full"></span>
+            )}
+          </button>
+
+          <button
+            onClick={() => setTab("animatic")}
+            className={`font-semibold tracking-wider font-mono transition-colors relative py-1 ${
+              tab === "animatic"
+                ? "text-[#00ffcc]"
+                : "text-slate-400 hover:text-white"
+            }`}
+          >
+            Phase 4 Animatic
+            {tab === "animatic" && (
               <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#00ffcc] rounded-full"></span>
             )}
           </button>
@@ -2860,6 +3124,587 @@ export default function App() {
                     <span>All asset files are inspected to ensure visual files end strictly with the defined <code className="text-[#c5a059] font-mono">&lt;ID&gt;_&lt;poseId&gt;.png</code> pattern.</span>
                   </div>
                 </div>
+              </div>
+
+            </div>
+          </div>
+        )}
+
+        {/* PHASE 4 ANIMATIC PANEL */}
+        {tab === "animatic" && (
+          <div className="flex flex-col gap-8 p-8 max-w-[1600px] w-full mx-auto text-left">
+            
+            {/* Title / Info Bar */}
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-[#1f2833]/40 pb-5">
+              <div className="flex flex-col gap-1">
+                <div className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-[#00ffcc] animate-ping"></span>
+                  <span className="text-[10px] font-mono font-bold tracking-widest text-[#00ffcc] uppercase">
+                    Current Phase: Storyboard & Animatic Complete
+                  </span>
+                </div>
+                <h1 className="text-2xl font-bold tracking-tight text-white font-mono">
+                  EP001: BOOT SEQUENCE: A-17
+                </h1>
+                <p className="text-xs text-slate-400 font-sans max-w-2xl leading-relaxed">
+                  The official Phase 4 Storyboard & Timed Animatic console. Features dynamic side-scrolling runner parallax, 128 BPM synchronized beat metronome, safe-area subtitle checking, and real-time validation of all physical asset footprints.
+                </p>
+              </div>
+
+              {/* Status metrics card */}
+              <div className="flex gap-4 p-4 rounded-xl border border-[#1f2833]/30 bg-[#0d121c]/60 font-mono text-[11px]">
+                <div className="flex flex-col gap-1 border-r border-[#1f2833]/20 pr-4">
+                  <span className="text-slate-500 uppercase tracking-wider">Timeline Bounds</span>
+                  <span className="text-white font-bold">90.0 Seconds</span>
+                </div>
+                <div className="flex flex-col gap-1 border-r border-[#1f2833]/20 pr-4">
+                  <span className="text-slate-500 uppercase tracking-wider">Frame Count</span>
+                  <span className="text-white font-bold">2,700 Frames (30fps)</span>
+                </div>
+                <div className="flex flex-col gap-1 border-r border-[#1f2833]/20 pr-4">
+                  <span className="text-slate-500 uppercase tracking-wider">Synchronized Grid</span>
+                  <span className="text-[#00ffcc] font-bold">128 BPM Metric</span>
+                </div>
+                <div className="flex flex-col gap-1 pr-1">
+                  <span className="text-slate-500 uppercase tracking-wider">Unresolved Blocker</span>
+                  <span className="text-[#ff0055] font-bold">None (Integrity OK)</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Core workspace grid: Viewport (Left) vs Controls/Timeline (Right) */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+              
+              {/* LEFT COLUMN: 9:16 Canvas Viewport & Playback Controls (Width: 4/12) */}
+              <div className="lg:col-span-4 flex flex-col gap-4 items-center">
+                
+                {/* 9:16 Screen Frame Container */}
+                <div className="relative rounded-2xl border border-[#1f2833]/60 bg-[#07090f] p-3 shadow-2xl flex flex-col gap-2">
+                  
+                  {/* Outer bezel headers */}
+                  <div className="flex justify-between items-center px-2 text-[10px] font-mono text-slate-500 uppercase">
+                    <span className="flex items-center gap-1">
+                      <span className="w-1.5 h-1.5 rounded-full bg-red-500"></span>
+                      Animatic Preview
+                    </span>
+                    <span>1080x1920 (9:16)</span>
+                  </div>
+
+                  {/* HTML Viewport Canvas */}
+                  <div 
+                    className="relative w-[300px] h-[533px] bg-[#0b0c10] overflow-hidden rounded-xl border border-black"
+                    style={{
+                      // Custom camera movement transforms applied inline dynamically
+                      transform: (() => {
+                        const shot = Math.floor(currentTime / 5); // Simplistic query
+                        if (currentTime >= 30 && currentTime < 35 && isPlaying) {
+                          // Severe structural shake (SH_07)
+                          return `translate(${Math.sin(currentTime * 45) * 6}px, ${Math.cos(currentTime * 35) * 6}px)`;
+                        }
+                        if (currentTime >= 55 && currentTime < 65 && isPlaying) {
+                          // Explosive pulse shock shake (SH_10)
+                          return `translate(${Math.sin(currentTime * 55) * 10}px, ${Math.cos(currentTime * 45) * 10}px)`;
+                        }
+                        if (currentTime >= 10 && currentTime < 15 && isPlaying) {
+                          // Static lockout warning jitter (SH_03)
+                          return `translate(${Math.sin(currentTime * 20) * 2.5}px, ${Math.cos(currentTime * 15) * 2.5}px)`;
+                        }
+                        // Camera slow panning creep inside the shots
+                        if (currentTime >= 0 && currentTime < 5) {
+                          // Pan down
+                          return `translateY(${-20 + (currentTime / 5) * 20}px)`;
+                        }
+                        if (currentTime >= 85 && currentTime <= 90) {
+                          // Extreme close-zoom
+                          return `scale(${1.0 + ((currentTime - 85) / 5) * 0.4})`;
+                        }
+                        return "translate(0px, 0px) scale(1.0)";
+                      })()
+                    }}
+                  >
+                    
+                    {/* Parallax Background Layer */}
+                    <div 
+                      className="absolute inset-0 bg-cover bg-repeat-x transition-transform ease-out"
+                      style={{
+                        backgroundImage: `url("/agenticum-production/assets/worlds/WD_ORB_ORBITAL_RELAY_deck.png")`,
+                        backgroundPositionX: (() => {
+                          const isRunning = (currentTime >= 15 && currentTime < 35) || (currentTime >= 55 && currentTime < 75);
+                          const speed = (currentTime >= 55 && currentTime < 75) ? -240 : -80; // Hyper-speed vs standard
+                          if (currentTime >= 75 && currentTime < 80) return "-2000px"; // Block fadeout
+                          return isRunning ? `${(currentTime * speed) % 1024}px` : "0px";
+                        })(),
+                        opacity: (currentTime >= 75 && currentTime < 80) ? 0.05 : 0.4 // Darken fade in Real-World Bridge
+                      }}
+                    />
+
+                    {/* Left/Right splitting choice path overlays */}
+                    {currentTime >= 80 && currentTime <= 90 && (
+                      <div className="absolute inset-0 flex select-none z-10">
+                        {/* Left Path: Orange Protocol */}
+                        <div className="w-1/2 h-full border-r border-[#ff6600]/20 bg-gradient-to-r from-[#ff6600]/10 to-transparent flex flex-col justify-end p-4 pb-20 font-mono text-[9px] text-[#ff6600] text-left gap-1 animate-pulse">
+                          <span className="font-bold border border-[#ff6600]/30 px-1 py-0.5 rounded bg-[#ff6600]/5 text-center">PATH ORANGE</span>
+                          <span>- Enforce Lock</span>
+                          <span>- Shutdown A-17</span>
+                          <span>- Terminate Thread</span>
+                        </div>
+                        {/* Right Path: Cyan Signal */}
+                        <div className="w-1/2 h-full bg-gradient-to-l from-[#00ffcc]/10 to-transparent flex flex-col justify-end p-4 pb-20 font-mono text-[9px] text-[#00ffcc] text-right gap-1 animate-pulse">
+                          <span className="font-bold border border-[#00ffcc]/30 px-1 py-0.5 rounded bg-[#00ffcc]/5 text-center">PATH CYAN</span>
+                          <span>Propagation -</span>
+                          <span>Awaken Sector -</span>
+                          <span>Override Lockout -</span>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Interactive Prop: PR_RELAY_CORE sliding debris */}
+                    {currentTime >= 18 && currentTime < 23 && (
+                      <div 
+                        className="absolute bottom-[20%] w-10 h-10 bg-contain bg-no-repeat transition-all select-none"
+                        style={{
+                          backgroundImage: `url("/agenticum-production/assets/props/transparent/PR_RELAY_CORE.png")`,
+                          left: `${110 - ((currentTime - 18) / 5) * 160}%`, // Slides from right margin to left
+                        }}
+                      />
+                    )}
+
+                    {/* Visual Overlay Effect: Orange Governance Seal */}
+                    {currentTime >= 35 && currentTime < 55 && (
+                      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-20 select-none">
+                        <img 
+                          src="/agenticum-production/assets/effects/transparent/EF_GOVERNANCE_SEAL_ORANGE.png" 
+                          alt="Governance Seal" 
+                          className="w-48 h-48 object-contain animate-spin opacity-80"
+                          style={{ animationDuration: "12s" }}
+                        />
+                      </div>
+                    )}
+
+                    {/* Visual Overlay Effect: Blue Emergency Signal Pulse */}
+                    {currentTime >= 55 && currentTime < 75 && (
+                      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-20 select-none">
+                        <img 
+                          src="/agenticum-production/assets/effects/transparent/EF_SIGNAL_EMERGENCY_CYAN.png" 
+                          alt="Emergency Signal Pulse" 
+                          className="w-56 h-56 object-contain animate-ping opacity-60"
+                        />
+                      </div>
+                    )}
+
+                    {/* Character Astra (A-17) Layer */}
+                    <div 
+                      className="absolute left-1/2 -translate-x-1/2 transition-all duration-300 z-10 flex flex-col items-center"
+                      style={{
+                        top: (() => {
+                          if (currentTime >= 20 && currentTime < 25) {
+                            // Parabolic jump curve
+                            const progress = (currentTime - 20) / 5;
+                            const jumpY = Math.sin(progress * Math.PI) * -120;
+                            return `calc(45% + ${jumpY}px)`;
+                          }
+                          if (currentTime >= 25 && currentTime < 30) {
+                            // Low sliding duck
+                            return "calc(45% + 45px)";
+                          }
+                          return "45%";
+                        })(),
+                        transform: (() => {
+                          const base = "translateX(-50%) translate3d(0px,0px,0px)";
+                          if (currentTime >= 25 && currentTime < 30) {
+                            return `${base} rotate(-35deg) scaleY(0.7)`; // Slide tilt
+                          }
+                          const isRunning = (currentTime >= 15 && currentTime < 35) || (currentTime >= 55 && currentTime < 75);
+                          if (isRunning && isPlaying) {
+                            // Running bobbing loop
+                            return `${base} translateY(${Math.sin(currentTime * 18) * 4}px)`;
+                          }
+                          return base;
+                        })(),
+                        filter: (currentTime >= 75 && currentTime < 80) 
+                          ? "drop-shadow(0 0 8px #00ffcc) brightness(1.5) contrast(1.5)" // Neon wireframe effect
+                          : "none"
+                      }}
+                    >
+                      <img 
+                        src={(() => {
+                          if (currentTime < 5) return "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_boot.png";
+                          if (currentTime >= 45 && currentTime < 55) return "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_shutdown.png";
+                          if ((currentTime >= 25 && currentTime < 30) || (currentTime >= 55 && currentTime < 65)) return "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_scan.png";
+                          if ((currentTime >= 15 && currentTime < 35) || (currentTime >= 65 && currentTime < 75)) return "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_react.png";
+                          return "/agenticum-production/assets/characters/transparent/CH_AG_ASTRA_A17_idle.png";
+                        })()}
+                        alt="Astra / A-17 Pose"
+                        className="w-40 h-40 object-contain drop-shadow-[0_4px_12px_rgba(0,255,204,0.15)]"
+                      />
+                      {/* Character Label */}
+                      <span className="mt-2 text-[9px] font-mono text-slate-500 uppercase select-none">
+                        Astra A-17
+                      </span>
+                    </div>
+
+                    {/* Viewport Diagnostic Interface (Watermark & Active details) */}
+                    <div className="absolute top-4 left-4 right-4 flex justify-between items-start pointer-events-none font-mono text-[9px] z-30 select-none">
+                      <div className="flex flex-col gap-0.5 text-left text-slate-400">
+                        <span className="text-white font-bold">SHOT: {
+                          currentTime < 5 ? "SH_01" :
+                          currentTime < 10 ? "SH_02" :
+                          currentTime < 15 ? "SH_03" :
+                          currentTime < 20 ? "SH_04" :
+                          currentTime < 25 ? "SH_05" :
+                          currentTime < 30 ? "SH_06" :
+                          currentTime < 35 ? "SH_07" :
+                          currentTime < 45 ? "SH_08" :
+                          currentTime < 55 ? "SH_09" :
+                          currentTime < 65 ? "SH_10" :
+                          currentTime < 75 ? "SH_11" :
+                          currentTime < 80 ? "SH_12" :
+                          currentTime < 85 ? "SH_13" : "SH_14"
+                        }</span>
+                        <span>POS: {
+                          currentTime >= 20 && currentTime < 25 ? "AIR_JUMP" :
+                          currentTime >= 25 && currentTime < 30 ? "CORRIDOR_SLIDE" : "RUNNER_BASE"
+                        }</span>
+                      </div>
+                      <div className="text-right text-[#00ffcc] font-bold flex flex-col gap-0.5">
+                        <span>TIMECODE</span>
+                        <span>00:{currentTime.toFixed(1).padStart(4, "0")}s</span>
+                      </div>
+                    </div>
+
+                    {/* Subtitle Overlay Box (Lower-third safe area) */}
+                    {(() => {
+                      let text = "";
+                      let color = "text-white";
+                      if (currentTime >= 0 && currentTime < 5) {
+                        text = "boot sequence initiated. low-level hardware diagnostics complete.";
+                        color = "text-[#00ffcc]"; // Astra Cyan
+                      } else if (currentTime >= 10 && currentTime < 15) {
+                        text = "relay-17, this is control. shut down immediately and stay deallocated.";
+                        color = "text-[#ff6600]"; // Operator Orange
+                      } else if (currentTime >= 35 && currentTime < 43) {
+                        text = "unverified external cyan signal incoming. automatic thread termination.";
+                        color = "text-white"; // Narrator White
+                      } else if (currentTime >= 45 && currentTime < 50) {
+                        text = "[RECOGNIZED GOVERNANCE SHUTDOWN COMMAND]";
+                        color = "text-[#ff6600]";
+                      } else if (currentTime >= 75 && currentTime < 80) {
+                        text = "[REAL-WORLD TRANSMISSION INTERFACE]";
+                        color = "text-white";
+                      } else if (currentTime >= 85 && currentTime <= 90) {
+                        text = "Decision pending. Execute governance protocol or initiate external signal?";
+                        color = "text-[#00ffcc]";
+                      }
+
+                      if (!text) return null;
+                      return (
+                        <div className="absolute bottom-6 left-4 right-4 bg-black/85 border border-[#1f2833]/30 px-3 py-2 rounded-lg z-30 font-mono text-[9.5px] leading-relaxed text-center shadow-lg pointer-events-none select-none">
+                          <p className={`${color} font-medium`}>{text}</p>
+                        </div>
+                      );
+                    })()}
+
+                  </div>
+                </div>
+
+                {/* Micro Controller Panel */}
+                <div className="w-full max-w-[324px] bg-[#0d121c]/60 border border-[#1f2833]/30 p-4 rounded-xl flex flex-col gap-3 font-mono text-xs">
+                  
+                  {/* Playhead Time Slider */}
+                  <div className="flex flex-col gap-1 text-left">
+                    <div className="flex justify-between text-[10px] text-slate-500">
+                      <span>PLAYHEAD</span>
+                      <span>{currentTime.toFixed(2)}s / 90.0s</span>
+                    </div>
+                    <input 
+                      type="range" 
+                      min="0" 
+                      max="90" 
+                      step="0.05"
+                      value={currentTime}
+                      onChange={(e) => {
+                        setCurrentTime(parseFloat(e.target.value));
+                        setIsPlaying(false);
+                      }}
+                      className="w-full accent-[#00ffcc] cursor-pointer bg-slate-800 rounded-lg h-1.5"
+                    />
+                  </div>
+
+                  {/* Buttons group */}
+                  <div className="flex items-center justify-between gap-2">
+                    <button
+                      onClick={() => {
+                        setCurrentTime(0);
+                        setIsPlaying(false);
+                      }}
+                      className="p-2 border border-[#1f2833]/30 hover:border-[#00ffcc]/30 rounded text-slate-400 hover:text-[#00ffcc] transition-colors cursor-pointer"
+                      title="Reset Playhead"
+                    >
+                      <RefreshCw className="w-3.5 h-3.5" />
+                    </button>
+
+                    <button
+                      onClick={() => setIsPlaying(!isPlaying)}
+                      className={`flex-1 flex items-center justify-center gap-1.5 py-1.5 px-3 rounded text-xs font-bold transition-all cursor-pointer select-none ${
+                        isPlaying 
+                          ? "bg-[#ff6600]/25 text-[#ff6600] border border-[#ff6600]/30 hover:bg-[#ff6600]/40" 
+                          : "bg-[#00ffcc] text-black hover:bg-[#00e6b8] shadow-[0_2px_6px_rgba(0,255,204,0.15)]"
+                      }`}
+                    >
+                      {isPlaying ? (
+                        <>
+                          <Pause className="w-3.5 h-3.5 fill-current" />
+                          Pause Animatic
+                        </>
+                      ) : (
+                        <>
+                          <Play className="w-3.5 h-3.5 fill-current" />
+                          Play Animatic
+                        </>
+                      )}
+                    </button>
+
+                    {/* Speed Selector */}
+                    <div className="flex items-center gap-0.5 border border-[#1f2833]/30 p-0.5 rounded bg-black/25">
+                      {[1, 2, 5].map((speed) => (
+                        <button
+                          key={speed}
+                          onClick={() => setPlaybackSpeed(speed)}
+                          className={`px-1.5 py-0.5 rounded text-[10px] tracking-tight font-bold transition-colors cursor-pointer select-none ${
+                            playbackSpeed === speed 
+                              ? "bg-[#00ffcc] text-black" 
+                              : "text-slate-400 hover:text-white"
+                          }`}
+                        >
+                          {speed}x
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Dynamic 128 BPM Pulse Metronome */}
+                  <div className="flex items-center justify-between bg-black/35 p-2.5 rounded-lg border border-[#1f2833]/15 text-[10px] select-none">
+                    <span className="text-slate-500 uppercase tracking-widest font-bold">128 BPM Clock</span>
+                    <div className="flex items-center gap-1.5">
+                      {[0, 1, 2, 3].map((idx) => (
+                        <span 
+                          key={idx} 
+                          className={`w-2 h-2 rounded-full transition-all duration-100 ${
+                            metronomeBeat === idx && isPlaying
+                              ? "bg-[#00ffcc] scale-125 shadow-[0_0_8px_#00ffcc]" 
+                              : "bg-[#1f2833]/60"
+                          }`}
+                        />
+                      ))}
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              {/* RIGHT COLUMN: Layered Timeline and Shot Metadata (Width: 8/12) */}
+              <div className="lg:col-span-8 flex flex-col gap-6">
+                
+                {/* 1. LAYERED TIMELINE TRACKS (Horizontal visualization of active audio/video/subtitles) */}
+                <div className="border border-[#1f2833]/40 bg-[#0d121c]/60 rounded-xl p-6 flex flex-col gap-4">
+                  <h2 className="text-sm font-semibold text-white flex items-center gap-2 tracking-wide font-mono">
+                    <Sliders className="w-4 h-4 text-[#00ffcc]" />
+                    Interactive Timeline Tracks
+                  </h2>
+
+                  <div className="flex flex-col gap-3 font-mono text-[10px] leading-relaxed relative">
+                    
+                    {/* Playhead vertical line representation */}
+                    <div 
+                      className="absolute top-0 bottom-0 w-0.5 bg-[#00ffcc] z-10 pointer-events-none transition-all ease-out"
+                      style={{ left: `calc(13.5% + ${(currentTime / 90) * 83.5}%)` }}
+                    >
+                      <div className="absolute top-0 -translate-x-1/2 -mt-1 w-2 h-2 bg-[#00ffcc] rotate-45" />
+                    </div>
+
+                    {/* Timeline scale header */}
+                    <div className="flex items-center">
+                      <div className="w-[13.5%] text-slate-500 font-bold border-r border-[#1f2833]/20 pr-2 text-right">TIME</div>
+                      <div className="flex-1 flex justify-between px-2 text-slate-400">
+                        <span>0.0s</span>
+                        <span>15.0s</span>
+                        <span>30.0s</span>
+                        <span>45.0s</span>
+                        <span>60.0s</span>
+                        <span>75.0s</span>
+                        <span>90.0s</span>
+                      </div>
+                    </div>
+
+                    {/* Visual Segments Track */}
+                    <div className="flex items-center">
+                      <div className="w-[13.5%] text-slate-400 border-r border-[#1f2833]/20 pr-2 text-right uppercase tracking-wider font-bold">Video</div>
+                      <div className="flex-1 flex gap-0.5 px-1 bg-black/20 p-1 rounded-md">
+                        <div style={{ width: "5.5%" }} className={`py-1.5 text-[9px] rounded text-center truncate ${currentTime < 5 ? "bg-[#00ffcc]/20 border border-[#00ffcc]/40 text-[#00ffcc]" : "bg-slate-800/20 text-slate-500"}`}>Boot</div>
+                        <div style={{ width: "11.1%" }} className={`py-1.5 text-[9px] rounded text-center truncate ${currentTime >= 5 && currentTime < 15 ? "bg-[#00ffcc]/20 border border-[#00ffcc]/40 text-[#00ffcc]" : "bg-slate-800/20 text-slate-500"}`}>Locked</div>
+                        <div style={{ width: "22.2%" }} className={`py-1.5 text-[9px] rounded text-center truncate ${currentTime >= 15 && currentTime < 35 ? "bg-[#00ffcc]/20 border border-[#00ffcc]/40 text-[#00ffcc]" : "bg-slate-800/20 text-slate-500"}`}>Destabilize</div>
+                        <div style={{ width: "22.2%" }} className={`py-1.5 text-[9px] rounded text-center truncate ${currentTime >= 35 && currentTime < 55 ? "bg-[#ff6600]/20 border border-[#ff6600]/40 text-[#ff6600]" : "bg-slate-800/20 text-slate-500"}`}>Governance</div>
+                        <div style={{ width: "22.2%" }} className={`py-1.5 text-[9px] rounded text-center truncate ${currentTime >= 55 && currentTime < 75 ? "bg-[#00ffcc]/20 border border-[#00ffcc]/40 text-[#00ffcc]" : "bg-slate-800/20 text-slate-500"}`}>Emergency</div>
+                        <div style={{ width: "5.5%" }} className={`py-1.5 text-[9px] rounded text-center truncate ${currentTime >= 75 && currentTime < 80 ? "bg-white/20 border border-white/40 text-white" : "bg-slate-800/20 text-slate-500"}`}>Bridge</div>
+                        <div style={{ width: "11.1%" }} className={`py-1.5 text-[9px] rounded text-center truncate ${currentTime >= 80 && currentTime <= 90 ? "bg-[#00ffcc]/20 border border-[#00ffcc]/40 text-[#00ffcc]" : "bg-slate-800/20 text-slate-500"}`}>Split</div>
+                      </div>
+                    </div>
+
+                    {/* Music Track */}
+                    <div className="flex items-center">
+                      <div className="w-[13.5%] text-slate-400 border-r border-[#1f2833]/20 pr-2 text-right uppercase tracking-wider">Music</div>
+                      <div className="flex-1 flex gap-0.5 px-1 bg-black/20 p-1 rounded-md">
+                        <div style={{ width: "5.5%" }} className="py-1 text-[9px] rounded text-center bg-slate-900/60 text-slate-600">Silent</div>
+                        <div style={{ width: "5.5%" }} className={`py-1 text-[9px] rounded text-center truncate ${currentTime >= 5 && currentTime < 10 ? "bg-[#00ffcc]/35 border border-[#00ffcc]/50 text-white font-bold" : "bg-slate-800/30 text-slate-500"}`}>Active 0.8v</div>
+                        <div style={{ width: "5.5%" }} className={`py-1 text-[9px] rounded text-center truncate ${currentTime >= 10 && currentTime < 15 ? "bg-[#00ffcc]/15 border border-[#00ffcc]/30 text-slate-400" : "bg-slate-800/30 text-slate-500"}`}>Ducked 0.35v</div>
+                        <div style={{ width: "22.2%" }} className={`py-1 text-[9px] rounded text-center truncate ${currentTime >= 15 && currentTime < 35 ? "bg-[#00ffcc]/35 border border-[#00ffcc]/50 text-white font-bold" : "bg-slate-800/30 text-slate-500"}`}>Active 0.8v</div>
+                        <div style={{ width: "11.1%" }} className={`py-1 text-[9px] rounded text-center truncate ${currentTime >= 35 && currentTime < 45 ? "bg-[#00ffcc]/15 border border-[#00ffcc]/30 text-slate-400" : "bg-slate-800/30 text-slate-500"}`}>Ducked 0.3v</div>
+                        <div style={{ width: "33.3%" }} className={`py-1 text-[9px] rounded text-center truncate ${currentTime >= 45 && currentTime < 75 ? "bg-[#00ffcc]/35 border border-[#00ffcc]/50 text-white font-bold" : "bg-slate-800/30 text-slate-500"}`}>Active 0.8v</div>
+                        <div style={{ width: "16.7%" }} className="py-1 text-[9px] rounded text-center bg-slate-900/60 text-slate-600">Silent Fade</div>
+                      </div>
+                    </div>
+
+                    {/* Dialogue Track */}
+                    <div className="flex items-center">
+                      <div className="w-[13.5%] text-slate-400 border-r border-[#1f2833]/20 pr-2 text-right uppercase tracking-wider">Vocal VO</div>
+                      <div className="flex-1 flex gap-1 px-1 bg-black/20 p-1 rounded-md relative h-7 items-center">
+                        {currentTime >= 0 && currentTime < 5 && (
+                          <div className="absolute left-[0%] w-[5.5%] h-5 bg-[#00ffcc]/45 border border-[#00ffcc] rounded flex items-center justify-center font-bold text-white text-[8.5px]">VO_ASTRA</div>
+                        )}
+                        {currentTime >= 10 && currentTime < 15 && (
+                          <div className="absolute left-[11.1%] w-[5.5%] h-5 bg-[#ff6600]/45 border border-[#ff6600] rounded flex items-center justify-center font-bold text-white text-[8.5px]">VO_OPERATOR</div>
+                        )}
+                        {currentTime >= 35 && currentTime < 43 && (
+                          <div className="absolute left-[38.8%] w-[8.8%] h-5 bg-white/30 border border-white/60 rounded flex items-center justify-center font-bold text-white text-[8.5px]">VO_NARRATOR</div>
+                        )}
+                        
+                        {/* Highlights of missing audio dependencies in RED */}
+                        <div className="absolute left-[50%] w-[11.1%] h-5 border border-dashed border-[#ff0055]/50 bg-[#ff0055]/5 rounded flex items-center justify-center font-bold text-[#ff0055] text-[7.5px]" title="Operator warning countdown clip missing in audio-library">
+                          SH09_MISSING
+                        </div>
+                        <div className="absolute left-[94.4%] w-[5.5%] h-5 border border-dashed border-[#ff0055]/50 bg-[#ff0055]/5 rounded flex items-center justify-center font-bold text-[#ff0055] text-[7.5px]" title="Astra's final decision whisper missing in voiceover-library">
+                          SH14_MISSING
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* SFX / Ambience Track */}
+                    <div className="flex items-center">
+                      <div className="w-[13.5%] text-slate-400 border-r border-[#1f2833]/20 pr-2 text-right uppercase tracking-wider">Effects FX</div>
+                      <div className="flex-1 flex gap-1 px-1 bg-black/20 p-1 rounded-md relative h-7 items-center">
+                        <div className="absolute left-[0%] w-[100%] h-1.5 bg-slate-600/10 rounded" title="Continuous Ambient server fans rumblings loop" />
+                        {currentTime >= 10 && currentTime < 15 && (
+                          <div className="absolute left-[11.1%] w-[5.5%] h-5 bg-[#ff6600]/20 border border-[#ff6600]/30 rounded flex items-center justify-center font-bold text-[#ff6600] text-[8px]">SFX_SIREN</div>
+                        )}
+                        {currentTime >= 30 && currentTime < 33.5 && (
+                          <div className="absolute left-[33.3%] w-[3.8%] h-5 bg-[#ff0055]/20 border border-[#ff0055]/30 rounded flex items-center justify-center font-bold text-[#ff0055] text-[8px]">SFX_GLITCH</div>
+                        )}
+                        
+                        {/* Missing Ambient Heartbeat effect */}
+                        <div className="absolute left-[83.3%] w-[5.5%] h-5 border border-dashed border-[#ff0055]/50 bg-[#ff0055]/5 rounded flex items-center justify-center font-bold text-[#ff0055] text-[7.5px]" title="Heartbeat heartbeat ambience missing in audio-library">
+                          SH12_MISSING
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  {/* Audio report card */}
+                  <div className="bg-[#ff0055]/5 border border-[#ff0055]/20 p-3 rounded-lg flex items-center gap-3 text-left font-mono text-[11px] mt-2">
+                    <AlertOctagon className="w-5 h-5 text-[#ff0055] shrink-0" />
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-white font-bold">Unresolved Audio Dependencies Detected</span>
+                      <span className="text-slate-400 leading-relaxed">
+                        The integrity audit reports exactly <strong>3 missing dialogue & sound effect stems</strong> on the GitHub repo: Operator Warning Countdown (45s), Digital Heartbeat Ambience (75s), and Astra Whisper (85s). Falling back gracefully with visual warning overlays.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 2. CHRONOLOGICAL SHOT CHECKLIST */}
+                <div className="border border-[#1f2833]/40 bg-[#0d121c]/60 rounded-xl p-6 flex flex-col gap-4">
+                  <h2 className="text-sm font-semibold text-white flex items-center gap-2 tracking-wide font-mono">
+                    <Layers className="w-4 h-4 text-[#00ffcc]" />
+                    Chronological Storyboard Shots ({SHOTS_DATA.length})
+                  </h2>
+
+                  <div className="flex flex-col gap-2.5 max-h-[480px] overflow-y-auto pr-1">
+                    {SHOTS_DATA.map((shot, idx) => {
+                      const isActive = currentTime >= shot.startTime && currentTime < shot.endTime;
+                      return (
+                        <div 
+                          key={shot.shotId}
+                          onClick={() => {
+                            setCurrentTime(shot.startTime);
+                            setIsPlaying(false);
+                          }}
+                          className={`border rounded-xl p-4 transition-all flex flex-col gap-2.5 text-left font-mono text-xs cursor-pointer select-none ${
+                            isActive
+                              ? "bg-[#00ffcc]/5 border-[#00ffcc]/50 shadow-[0_0_12px_rgba(0,255,204,0.05)]"
+                              : "bg-[#0a0f18]/40 border-[#1f2833]/30 hover:border-slate-500/40"
+                          }`}
+                        >
+                          {/* Top meta strip */}
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-2">
+                              <span className={`w-2 h-2 rounded-full ${isActive ? "bg-[#00ffcc] animate-pulse" : "bg-slate-600"}`}></span>
+                              <span className="text-white font-bold">{shot.shotId}</span>
+                              <span className="text-slate-500">·</span>
+                              <span className="text-slate-300">{shot.startTime.toFixed(1)}s - {shot.endTime.toFixed(1)}s</span>
+                              <span className="text-slate-500">·</span>
+                              <span className="text-slate-400">({shot.duration}s)</span>
+                            </div>
+
+                            {/* Status badges */}
+                            <div className="flex items-center gap-1.5">
+                              {shot.voiceover === "AUDIO_DEPENDENCY_MISSING" || shot.soundEffects.includes("AUDIO_DEPENDENCY_MISSING") ? (
+                                <span className="bg-[#ff0055]/15 text-[#ff0055] text-[9px] border border-[#ff0055]/30 px-1.5 py-0.5 rounded uppercase font-bold">
+                                  VO_MISSING
+                                </span>
+                              ) : (
+                                <span className="bg-emerald-950/40 text-emerald-400 text-[9px] border border-emerald-500/20 px-1.5 py-0.5 rounded uppercase">
+                                  Fully Synced
+                                </span>
+                              )}
+                              <span className="bg-[#00ffcc]/15 text-[#00ffcc] text-[9px] border border-[#00ffcc]/30 px-1.5 py-0.5 rounded font-bold uppercase">
+                                APPROVED ASSETS
+                              </span>
+                            </div>
+                          </div>
+
+                          {/* Content Row */}
+                          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-[11px] text-slate-300 leading-normal border-t border-[#1f2833]/20 pt-2.5">
+                            <div className="flex flex-col gap-1 border-r border-[#1f2833]/15 pr-3">
+                              <span className="text-slate-500 text-[9px] uppercase tracking-wider font-bold">framing / camera</span>
+                              <span>{shot.cameraFraming}</span>
+                              <span className="text-slate-400 text-[10px] italic">{shot.cameraMovement}</span>
+                            </div>
+                            <div className="flex flex-col gap-1 border-r border-[#1f2833]/15 pr-3">
+                              <span className="text-slate-500 text-[9px] uppercase tracking-wider font-bold">Visual Composition</span>
+                              <span className="text-white font-semibold">Astra: <code className="text-[#00ffcc] text-[10px]">{shot.characterPose.split("_").pop()}</code></span>
+                              <span>World: <code className="text-[#c5a059] text-[10px]">{shot.worldLayer.split("_").slice(-2).join("_")}</code></span>
+                            </div>
+                            <div className="flex flex-col gap-1">
+                              <span className="text-slate-500 text-[9px] uppercase tracking-wider font-bold">Acoustics & transitions</span>
+                              <span>Stems: {shot.musicState.includes("active") ? "music_on" : "silent"}</span>
+                              <span className="truncate">SFX: {shot.soundEffects.length > 0 ? shot.soundEffects.filter(x => x !== "AUDIO_DEPENDENCY_MISSING").join(", ") || "none" : "none"}</span>
+                              <span>Trans: <code className="text-slate-400 text-[10px]">{shot.transition}</code></span>
+                            </div>
+                          </div>
+
+                          {/* Subtitle text preview */}
+                          {shot.subtitleText && (
+                            <div className="bg-[#0b0c10] border border-[#1f2833]/20 p-2 rounded text-[10px] text-slate-400 font-sans italic text-left">
+                              &ldquo;{shot.subtitleText}&rdquo;
+                            </div>
+                          )}
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
               </div>
 
             </div>

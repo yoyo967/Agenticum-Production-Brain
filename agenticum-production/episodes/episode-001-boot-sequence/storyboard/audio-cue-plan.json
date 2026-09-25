@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "musicBpm": 128,
+  "musicTimeline": [
+    {
+      "timeRange": "00:00-00:05",
+      "trackId": null,
+      "state": "silent",
+      "volume": 0
+    },
+    {
+      "timeRange": "00:05-00:10",
+      "trackId": "AM_EP001_128BPM_CMINOR",
+      "state": "active",
+      "volume": 0.75
+    },
+    {
+      "timeRange": "00:10-00:15",
+      "trackId": "AM_EP001_128BPM_CMINOR",
+      "state": "ducked",
+      "volume": 0.35,
+      "reason": "dialogue_sh03"
+    },
+    {
+      "timeRange": "00:15-00:35",
+      "trackId": "AM_EP001_128BPM_CMINOR",
+      "state": "active",
+      "volume": 0.8
+    },
+    {
+      "timeRange": "00:35-00:45",
+      "trackId": "AM_EP001_128BPM_CMINOR",
+      "state": "ducked",
+      "volume": 0.3,
+      "reason": "dialogue_sh08"
+    },
+    {
+      "timeRange": "00:45-00:75",
+      "trackId": "AM_EP001_128BPM_CMINOR",
+      "state": "active",
+      "volume": 0.85
+    },
+    {
+      "timeRange": "00:75-00:90",
+      "trackId": null,
+      "state": "silent",
+      "volume": 0,
+      "reason": "real_world_bridge_fade"
+    }
+  ],
+  "voiceoverCues": [
+    {
+      "cueId": "CUE_VO_01",
+      "timeRange": "00:00-00:05",
+      "assetId": "VO_EP001_ASTRA_A17_01",
+      "text": "boot sequence initiated. low-level hardware diagnostics complete.",
+      "character": "Astra"
+    },
+    {
+      "cueId": "CUE_VO_02",
+      "timeRange": "00:10-00:15",
+      "assetId": "VO_EP001_OPERATOR_01",
+      "text": "relay-17, this is control. shut down immediately and stay deallocated.",
+      "character": "Operator"
+    },
+    {
+      "cueId": "CUE_VO_03",
+      "timeRange": "00:35-00:43",
+      "assetId": "VO_EP001_NARRATOR_01",
+      "text": "unverified external cyan signal incoming. automatic thread termination.",
+      "character": "Narrator"
+    },
+    {
+      "cueId": "CUE_VO_04",
+      "timeRange": "00:45-00:50",
+      "assetId": "AUDIO_DEPENDENCY_MISSING",
+      "text": "[Operator Shutdown Countdown Dialogue Missing]",
+      "character": "Operator"
+    },
+    {
+      "cueId": "CUE_VO_05",
+      "timeRange": "00:85-00:90",
+      "assetId": "AUDIO_DEPENDENCY_MISSING",
+      "text": "[Astra Final Decision Whisper Dialogue Missing]",
+      "character": "Astra"
+    }
+  ],
+  "soundEffects": [
+    {
+      "cueId": "SFX_CUE_01",
+      "triggerTime": "00:10.0s",
+      "assetId": "SFX_ALERT_SIREN",
+      "duration": 5
+    },
+    {
+      "cueId": "SFX_CUE_02",
+      "triggerTime": "00:30.0s",
+      "assetId": "SFX_GLITCH_STATIC",
+      "duration": 3.5
+    },
+    {
+      "cueId": "SFX_CUE_03",
+      "triggerTime": "00:75.0s",
+      "assetId": "AUDIO_DEPENDENCY_MISSING",
+      "duration": 5,
+      "description": "Digital Heartbeat beat ambience"
+    }
+  ],
+  "ambience": [
+    {
+      "assetId": "AMB_SECTOR_RUMBLE",
+      "triggerTime": "00:00.0s",
+      "volume": 0.4,
+      "loop": true
+    }
+  ]
+}

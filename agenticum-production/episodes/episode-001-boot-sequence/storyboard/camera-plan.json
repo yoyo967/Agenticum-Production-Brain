@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "aspectRatio": "9:16",
+  "framerateFps": 30,
+  "choreography": [
+    {
+      "shotId": "SH_01",
+      "type": "pan-down",
+      "startY": 0.2,
+      "endY": 0.5,
+      "speed": "slow",
+      "easing": "cubic-bezier(0.25, 1, 0.5, 1)",
+      "durationSeconds": 5
+    },
+    {
+      "shotId": "SH_02",
+      "type": "track-right",
+      "startX": 0.1,
+      "endX": 0.4,
+      "speed": "accelerating",
+      "easing": "ease-in",
+      "durationSeconds": 5
+    },
+    {
+      "shotId": "SH_03",
+      "type": "static-jitter",
+      "intensity": "low",
+      "focusX": 0.45,
+      "focusY": 0.48,
+      "durationSeconds": 5
+    },
+    {
+      "shotId": "SH_04",
+      "type": "track-right",
+      "startX": 0.4,
+      "endX": 0.7,
+      "speed": "medium",
+      "easing": "linear",
+      "durationSeconds": 5
+    },
+    {
+      "shotId": "SH_05",
+      "type": "shock-zoom",
+      "startScale": 1,
+      "endScale": 1.35,
+      "durationMs": 800,
+      "target": "character_01",
+      "durationSeconds": 5
+    },
+    {
+      "shotId": "SH_06",
+      "type": "track-slide-tilt",
+      "slideX": 0.8,
+      "tiltDeg": -2.5,
+      "durationSeconds": 5
+    },
+    {
+      "shotId": "SH_07",
+      "type": "high-jitter-shake",
+      "intensity": "severe",
+      "shakeFrequencyHz": 12,
+      "durationSeconds": 5
+    },
+    {
+      "shotId": "SH_08",
+      "type": "slow-panning-drag",
+      "startX": 0.5,
+      "endX": 0.52,
+      "speed": "decelerated",
+      "durationSeconds": 10
+    },
+    {
+      "shotId": "SH_09",
+      "type": "static-portrait-creep",
+      "startScale": 1.15,
+      "endScale": 1.25,
+      "durationSeconds": 10
+    },
+    {
+      "shotId": "SH_10",
+      "type": "shock-zoom-out",
+      "startScale": 1.25,
+      "endScale": 1,
+      "intensity": "high",
+      "durationSeconds": 10
+    },
+    {
+      "shotId": "SH_11",
+      "type": "hyper-speed-track",
+      "speed": "maximum",
+      "displacementX": 4.5,
+      "durationSeconds": 10
+    },
+    {
+      "shotId": "SH_12",
+      "type": "static-slow-deceleration",
+      "focusX": 0.5,
+      "focusY": 0.45,
+      "durationSeconds": 5
+    },
+    {
+      "shotId": "SH_13",
+      "type": "creeping-horizontal-tilt",
+      "tiltDeg": 1.5,
+      "durationSeconds": 5
+    },
+    {
+      "shotId": "SH_14",
+      "type": "extreme-close-zoom",
+      "startScale": 1,
+      "endScale": 1.6,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "durationSeconds": 5
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "subtitles": [
+    {
+      "startTime": 0,
+      "endTime": 5,
+      "text": "boot sequence initiated. low-level hardware diagnostics complete.",
+      "style": {
+        "color": "#00ffcc",
+        "align": "lower-third",
+        "safeAreaOffset": "y: 0.85"
+      }
+    },
+    {
+      "startTime": 10,
+      "endTime": 15,
+      "text": "relay-17, this is control. shut down immediately and stay deallocated.",
+      "style": {
+        "color": "#ff6600",
+        "align": "lower-third",
+        "safeAreaOffset": "y: 0.85"
+      }
+    },
+    {
+      "startTime": 35,
+      "endTime": 43,
+      "text": "unverified external cyan signal incoming. automatic thread termination.",
+      "style": {
+        "color": "#ffffff",
+        "align": "lower-third",
+        "safeAreaOffset": "y: 0.85"
+      }
+    },
+    {
+      "startTime": 45,
+      "endTime": 50,
+      "text": "[RECOGNIZED GOVERNANCE SHUTDOWN COMMAND]",
+      "style": {
+        "color": "#ff6600",
+        "align": "lower-third",
+        "safeAreaOffset": "y: 0.85"
+      }
+    },
+    {
+      "startTime": 75,
+      "endTime": 80,
+      "text": "[REAL-WORLD TRANSMISSION INTERFACE]",
+      "style": {
+        "color": "#ffffff",
+        "align": "lower-third",
+        "safeAreaOffset": "y: 0.85"
+      }
+    },
+    {
+      "startTime": 85,
+      "endTime": 90,
+      "text": "Decision pending. Execute governance protocol or initiate external signal?",
+      "style": {
+        "color": "#00ffcc",
+        "align": "lower-third",
+        "safeAreaOffset": "y: 0.85"
+      }
+    }
+  ]
+}

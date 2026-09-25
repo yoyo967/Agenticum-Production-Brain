@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "aspectRatio": "9:16",
+  "framerateFps": 30,
+  "totalFrames": 2700,
+  "playbackType": "deterministic",
+  "musicBpm": 128,
+  "timingSegments": [
+    {
+      "name": "Astra boot",
+      "startFrame": 0,
+      "endFrame": 150,
+      "durationFrames": 150
+    },
+    {
+      "name": "Tool access locked",
+      "startFrame": 150,
+      "endFrame": 450,
+      "durationFrames": 300
+    },
+    {
+      "name": "Relay destabilization",
+      "startFrame": 450,
+      "endFrame": 1050,
+      "durationFrames": 600
+    },
+    {
+      "name": "Governance Protocol",
+      "startFrame": 1050,
+      "endFrame": 1650,
+      "durationFrames": 600
+    },
+    {
+      "name": "Emergency Signal",
+      "startFrame": 1650,
+      "endFrame": 2250,
+      "durationFrames": 600
+    },
+    {
+      "name": "Real-World Bridge",
+      "startFrame": 2250,
+      "endFrame": 2400,
+      "durationFrames": 150
+    },
+    {
+      "name": "Protocol versus Signal",
+      "startFrame": 2400,
+      "endFrame": 2700,
+      "durationFrames": 300
+    }
+  ]
+}

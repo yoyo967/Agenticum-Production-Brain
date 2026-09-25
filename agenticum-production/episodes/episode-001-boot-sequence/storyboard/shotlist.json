@@ -1,0 +1,378 @@
+{
+  "episodeId": "EP_001_BOOT_SEQUENCE_A17",
+  "title": "BOOT SEQUENCE: A-17",
+  "totalShots": 14,
+  "durationSeconds": 90,
+  "shots": [
+    {
+      "shotId": "SH_01",
+      "startTime": 0,
+      "endTime": 5,
+      "duration": 5,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Extreme Close-up",
+      "cameraMovement": "Slow vertical pan downwards",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_boot",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [],
+      "voiceover": "VO_EP001_ASTRA_A17_01",
+      "musicState": "silent",
+      "soundEffects": [],
+      "subtitleText": "boot sequence initiated. low-level hardware diagnostics complete.",
+      "transition": "fade-in",
+      "safeAreaNotes": "Keep optical eye sensor centered at coordinate x=0.5, y=0.5",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_boot",
+        "WD_ORB_ORBITAL_RELAY_deck"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_02",
+      "startTime": 5,
+      "endTime": 10,
+      "duration": 5,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Full Body Shot",
+      "cameraMovement": "Horizontal panning starts",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_idle",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [],
+      "voiceover": null,
+      "musicState": "AM_EP001_128BPM_CMINOR_active",
+      "soundEffects": [],
+      "subtitleText": "",
+      "transition": "cut",
+      "safeAreaNotes": "Astra positioned at offset x=0.45",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_idle",
+        "WD_ORB_ORBITAL_RELAY_deck"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_03",
+      "startTime": 10,
+      "endTime": 15,
+      "duration": 5,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Medium Shot",
+      "cameraMovement": "Static, intense warning light sweep",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_idle",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [],
+      "voiceover": "VO_EP001_OPERATOR_01",
+      "musicState": "AM_EP001_128BPM_CMINOR_ducked",
+      "soundEffects": [
+        "SFX_ALERT_SIREN"
+      ],
+      "subtitleText": "relay-17, this is control. shut down immediately and stay deallocated.",
+      "transition": "cut",
+      "safeAreaNotes": "Avoid placing red flash overlay directly over Astra faceplate",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_idle",
+        "WD_ORB_ORBITAL_RELAY_deck"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_04",
+      "startTime": 15,
+      "endTime": 20,
+      "duration": 5,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Medium Wide",
+      "cameraMovement": "Side-scrolling tracking shot",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_react",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [],
+      "voiceover": null,
+      "musicState": "AM_EP001_128BPM_CMINOR_active",
+      "soundEffects": [],
+      "subtitleText": "",
+      "transition": "cut",
+      "safeAreaNotes": "Astra positioned running at x=0.35, allowing tracking space",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_react",
+        "WD_ORB_ORBITAL_RELAY_deck"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_05",
+      "startTime": 20,
+      "endTime": 25,
+      "duration": 5,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Dynamic Zoom Close-up",
+      "cameraMovement": "CAM_SHOCK_ZOOM lens surge",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_react",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [
+        "PR_RELAY_CORE"
+      ],
+      "effects": [],
+      "voiceover": null,
+      "musicState": "AM_EP001_128BPM_CMINOR_active",
+      "soundEffects": [],
+      "subtitleText": "",
+      "transition": "cut",
+      "safeAreaNotes": "Focus zoom targets active jump elevation trajectory",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_react",
+        "WD_ORB_ORBITAL_RELAY_deck",
+        "PR_RELAY_CORE"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_06",
+      "startTime": 25,
+      "endTime": 30,
+      "duration": 5,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Low Angle Medium",
+      "cameraMovement": "Tracking slide tilt",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_scan",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [],
+      "voiceover": null,
+      "musicState": "AM_EP001_128BPM_CMINOR_active",
+      "soundEffects": [],
+      "subtitleText": "",
+      "transition": "cut",
+      "safeAreaNotes": "Astra horizontal scan sweep beam is active",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_scan",
+        "WD_ORB_ORBITAL_RELAY_deck"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_07",
+      "startTime": 30,
+      "endTime": 35,
+      "duration": 5,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Medium Close",
+      "cameraMovement": "High Jitter Camera Shake",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_react",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [],
+      "voiceover": null,
+      "musicState": "AM_EP001_128BPM_CMINOR_active",
+      "soundEffects": [
+        "SFX_GLITCH_STATIC"
+      ],
+      "subtitleText": "",
+      "transition": "cut",
+      "safeAreaNotes": "Keep subtitles area clear of dynamic distortion bars",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_react",
+        "WD_ORB_ORBITAL_RELAY_deck"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_08",
+      "startTime": 35,
+      "endTime": 45,
+      "duration": 10,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Medium Shot",
+      "cameraMovement": "Heavily constrained slow tracking",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_react",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [
+        "EF_GOVERNANCE_SEAL_ORANGE"
+      ],
+      "voiceover": "VO_EP001_NARRATOR_01",
+      "musicState": "AM_EP001_128BPM_CMINOR_ducked",
+      "soundEffects": [],
+      "subtitleText": "unverified external cyan signal incoming. automatic thread termination.",
+      "transition": "cut",
+      "safeAreaNotes": "Concentric governance seals overlap central field",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_react",
+        "WD_ORB_ORBITAL_RELAY_deck",
+        "EF_GOVERNANCE_SEAL_ORANGE"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_09",
+      "startTime": 45,
+      "endTime": 55,
+      "duration": 10,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Close-up Portrait",
+      "cameraMovement": "Static, slow darkening fade",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_shutdown",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [],
+      "voiceover": "AUDIO_DEPENDENCY_MISSING",
+      "musicState": "AM_EP001_128BPM_CMINOR_active",
+      "soundEffects": [],
+      "subtitleText": "[RECOGNIZED GOVERNANCE SHUTDOWN COMMAND]",
+      "transition": "cut",
+      "safeAreaNotes": "Keep faceplate lens in high contrast view",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_shutdown",
+        "WD_ORB_ORBITAL_RELAY_deck"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_10",
+      "startTime": 55,
+      "endTime": 65,
+      "duration": 10,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Medium Shot",
+      "cameraMovement": "Intense camera shake and zoom out",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_scan",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [
+        "EF_SIGNAL_EMERGENCY_CYAN"
+      ],
+      "voiceover": null,
+      "musicState": "AM_EP001_128BPM_CMINOR_active",
+      "soundEffects": [],
+      "subtitleText": "",
+      "transition": "cut",
+      "safeAreaNotes": "Cyan shockwave explodes outwards from center screen",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_scan",
+        "WD_ORB_ORBITAL_RELAY_deck",
+        "EF_SIGNAL_EMERGENCY_CYAN"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_11",
+      "startTime": 65,
+      "endTime": 75,
+      "duration": 10,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Wide Tracking",
+      "cameraMovement": "Hyper-speed tracking",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_react",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [],
+      "voiceover": null,
+      "musicState": "AM_EP001_128BPM_CMINOR_active",
+      "soundEffects": [],
+      "subtitleText": "",
+      "transition": "cut",
+      "safeAreaNotes": "Cyan trailing blur effects are active",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_react",
+        "WD_ORB_ORBITAL_RELAY_deck"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_12",
+      "startTime": 75,
+      "endTime": 80,
+      "duration": 5,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Medium Wide",
+      "cameraMovement": "Extremely decelerating slide",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_idle",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [],
+      "voiceover": null,
+      "musicState": "silent",
+      "soundEffects": [
+        "AUDIO_DEPENDENCY_MISSING"
+      ],
+      "subtitleText": "[REAL-WORLD TRANSMISSION INTERFACE]",
+      "transition": "cut",
+      "safeAreaNotes": "Wireframe rendering mode, background fades to black",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_idle",
+        "WD_ORB_ORBITAL_RELAY_deck"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_13",
+      "startTime": 80,
+      "endTime": 85,
+      "duration": 5,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Full Body Dual Shot",
+      "cameraMovement": "Slow creeping tracking",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_idle",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [
+        "EF_GOVERNANCE_SEAL_ORANGE",
+        "EF_SIGNAL_EMERGENCY_CYAN"
+      ],
+      "voiceover": null,
+      "musicState": "silent",
+      "soundEffects": [],
+      "subtitleText": "",
+      "transition": "cut",
+      "safeAreaNotes": "Asymmetric orange and cyan path lanes visible left/right",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_idle",
+        "WD_ORB_ORBITAL_RELAY_deck",
+        "EF_GOVERNANCE_SEAL_ORANGE",
+        "EF_SIGNAL_EMERGENCY_CYAN"
+      ],
+      "validationStatus": "valid"
+    },
+    {
+      "shotId": "SH_14",
+      "startTime": 85,
+      "endTime": 90,
+      "duration": 5,
+      "aspectRatio": "9:16",
+      "cameraFraming": "Close-up Eye Scan",
+      "cameraMovement": "Slow static zoom in",
+      "character": "CH_AG_ASTRA_A17",
+      "characterPose": "CH_AG_ASTRA_A17_idle",
+      "worldLayer": "WD_ORB_ORBITAL_RELAY_deck",
+      "props": [],
+      "effects": [],
+      "voiceover": "AUDIO_DEPENDENCY_MISSING",
+      "musicState": "silent",
+      "soundEffects": [],
+      "subtitleText": "Decision pending. Execute governance protocol or initiate external signal?",
+      "transition": "fade-out",
+      "safeAreaNotes": "Subtitles positioned at lowest margin y=0.85",
+      "requiredAssets": [
+        "CH_AG_ASTRA_A17_idle",
+        "WD_ORB_ORBITAL_RELAY_deck"
+      ],
+      "validationStatus": "valid"
+    }
+  ]
+}

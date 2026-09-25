@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "manifestType": "Episode 001 Assets Verification",
+  "approvedAssetsUsed": [
+    "CH_AG_ASTRA_A17_boot",
+    "CH_AG_ASTRA_A17_idle",
+    "CH_AG_ASTRA_A17_scan",
+    "CH_AG_ASTRA_A17_react",
+    "CH_AG_ASTRA_A17_shutdown",
+    "WD_ORB_ORBITAL_RELAY_deck",
+    "PR_RELAY_CORE",
+    "EF_SIGNAL_EMERGENCY_CYAN",
+    "EF_GOVERNANCE_SEAL_ORANGE"
+  ],
+  "missingDependenciesReported": [
+    "VO_EP001_OPERATOR_SHUTDOWN_COUNTDOWN",
+    "VO_EP001_ASTRA_FINAL_WHISPER",
+    "SFX_REAL_WORLD_HEARTBEAT"
+  ]
+}

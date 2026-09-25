@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.7.0] - 2026-09-25
+### Added (Phase 4 Storyboard & Timed Animatic)
+- **Storyboard Directory Structure**: Created absolute storyboard path `/agenticum-production/episodes/episode-001-boot-sequence/storyboard/`.
+- **Authoritative Storyboard Document (`storyboard.md`)**: Drafted rich narrative blocking, camera panning, audio stems, and subtitle alignments across a 90-second automated cinematic vertical animatic.
+- **Shot-by-Shot Sequence Specifications (`shotlist.json`)**: Formulated 14 highly detailed cinematic running, jumping, and sliding shots synchronized to a strict 128 BPM music timeline grid.
+- **Choreography Control Parameters (`camera-plan.json`)**: Specified extreme close-ups, wide tracking, slide tilts, and jitter camera shakes.
+- **Audio Cue Timing Vectors (`audio-cue-plan.json`)**: Mapped and checked all music stems, dialogue voiceovers, ambient rumblings, and warned of three missing dialogue/audio stems (`AUDIO_DEPENDENCY_MISSING`).
+- **Synchronized Subtitle Blocks (`subtitle-plan.json`)**: Generated color-coded safe-area lower-third subtitle mappings.
+- **Asset Usage Registry & Animatic Profile (`asset-usage-map.json`, `animatic-spec.json`)**: Charted asset footprints and 2,700-frame timings.
+- **Interactive Phase 4 Studio Dashboard Tab (`src/App.tsx`)**: Programmed an advanced media player console inside the dashboard, featuring side-scrolling horizontal parallax, parabolic jumping physics bobbing, rotate-sliding duck angles, audio track indicators, and play/pause slider seek scrubbers.
+
 ## [0.6.0] - 2026-09-25
 ### Approved Assets (Episode 001 Visual Blockers)
 - **CH_AG_ASTRA_A17_boot** -> APPROVED at 2026-09-25T08:09:26Z (Notes: Human Review approved after alpha transparency and visual continuity checks.)
